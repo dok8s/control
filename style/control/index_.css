@@ -1,0 +1,60 @@
+.index {
+	COLOR: #333333
+}
+.login_tb {
+	BACKGROUND-IMAGE: url(/images/2004/index_loginbg.jpg); WIDTH: 250px; HEIGHT: 141px
+}
+.login_tb2 {
+	PADDING-TOP: 10px
+}
+.top_line {
+	BORDER-TOP: #d95701 1px solid; BORDER-BOTTOM: #ffff99 1px solid; BACKGROUND-COLOR: #f7941d
+}
+.down_line {
+	BORDER-TOP: #ffff99 1px solid; BORDER-BOTTOM: #295784 1px solid; BACKGROUND-COLOR: #676767
+}
+.main_bg {
+	BACKGROUND-IMAGE: url(/images/2004/index_tabbg.jpg); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #febf05
+}
+.link_bg {
+	BACKGROUND-IMAGE: url(/images/2004/index_top2.jpg); BACKGROUND-REPEAT: repeat-x
+}
+A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffff00; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.log_icon0 {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(/images/2004/arrow_0.gif); BACKGROUND-REPEAT: no-repeat
+}
+.login_icon {
+	BACKGROUND-POSITION: left center; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(/images/2004/arrow_4.gif); BACKGROUND-REPEAT: no-repeat
+}
+BODY {
+	LEFT: 0px; BACKGROUND-IMAGE: url(/images/2004/ind_bg.gif); MARGIN: 0px; CLIP: rect(0px auto auto auto); TOP: 0px; BACKGROUND-COLOR: #003366
+}
+TR {
+	FONT-SIZE: 12px; COLOR: #8d430f; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tab {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.foot {
+	FONT-SIZE: 11px; BACKGROUND-IMAGE: url(/images/2004/ind_down_bg.jpg); VERTICAL-ALIGN: middle; COLOR: #ffffff; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 40px; BACKGROUND-COLOR: #245d82; TEXT-ALIGN: center
+}
+.login_bg {
+	BACKGROUND-IMAGE: url(/images/2004/ind_logo03.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 135px; BACKGROUND-COLOR: #fd8f00
+}
+.log_but {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(/images/2004/ind_ph08.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.all {
+	LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 15%
+}

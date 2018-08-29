@@ -1,0 +1,102 @@
+.index {
+	COLOR: #fff
+}
+.login_tb {
+	BACKGROUND-IMAGE: url(images/2004/index_loginbg.jpg); WIDTH: 250px; HEIGHT: 141px
+}
+.login_tb2 {
+	PADDING-TOP: 10px
+}
+.top_line {
+	BORDER-TOP: #d95701 1px solid; BORDER-BOTTOM: #ffff99 1px solid; BACKGROUND-COLOR: #f7941d
+}
+.down_line {
+	BORDER-TOP: #ffff99 1px solid; BORDER-BOTTOM: #295784 1px solid; BACKGROUND-COLOR: #676767
+}
+.main_bg {
+	BACKGROUND-IMAGE:; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #febf05
+}
+.link_bg {
+	BACKGROUND-IMAGE: ; BACKGROUND-REPEAT: repeat-x
+}
+A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffff00; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.log_icon0 {
+	BACKGROUND-POSITION: left 80%; PADDING-LEFT: 20px; BACKGROUND-IMAGE: ; BACKGROUND-REPEAT: no-repeat
+}
+.login_icon {
+	BACKGROUND-POSITION: left 80%; PADDING-LEFT: 20px; BACKGROUND-IMAGE: ; BACKGROUND-REPEAT: no-repeat; color:#FFFFFF
+}
+BODY {
+	LEFT: 0px; BACKGROUND-IMAGE: ;background-repeat: no-repeat; MARGIN: 0px; CLIP: rect(0px auto auto auto); TOP: 0px; BACKGROUND-COLOR: #fff}
+TR {
+	FONT-SIZE: 12px; COLOR: #8d430f; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tab {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.foot {
+	FONT-SIZE: 11px; BACKGROUND-IMAGE: ; VERTICAL-ALIGN: middle; COLOR: #ffffff; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; HEIGHT: 40px; TEXT-ALIGN: center
+}
+.login_bg {
+	BACKGROUND-IMAGE: ; BACKGROUND-REPEAT: repeat-x; HEIGHT: 135px; 
+}
+.log_but {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: ; BACKGROUND-REPEAT: no-repeat
+}
+.all {
+	LEFT: 0px; WIDTH: 100%; POSITION: absolute; right: 0px; 
+}
+.head2
+{
+	color: #000;
+	font: 18px "lucida grande", "lucida sans unicode", arial, verdana, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.home-anycomputer
+{
+	font-size: 12px;
+}
+.m2wlogin-label
+{
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0A0A0A;
+	text-decoration: none;
+}
+.details
+{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3366cc;
+	text-decoration: none;
+	line-height: 18px;
+}
+.details2 {
+
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+}
+.kk {
+	height: 20px;
+	width: 355px;
+}
+.STYLE4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}

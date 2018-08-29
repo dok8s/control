@@ -1,0 +1,15 @@
+.za_select {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 2px; FONT-FAMILY: "Arial"; HEIGHT: 20px
+}
+.za_text {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 12px; MARGIN-BOTTOM: 2px; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: "Arial"; BACKGROUND-COLOR: #cccccc
+}
+.word {
+	PADDING-RIGHT: 3px; FONT-SIZE: 13px; FONT-FAMILY: "Arial"; TEXT-ALIGN: right
+}
+.za_button {
+	FONT-SIZE: 12px; PADDING-TOP: 1px; FONT-FAMILY: "Arial"; HEIGHT: 20px; BACKGROUND-COLOR: #cccccc
+}
+TR {
+	FONT-FAMILY: "Arial"
+}

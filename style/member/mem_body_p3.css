@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* ===============  New P3 2012-01-20  =============== */
+/*------P3------*/
+#game_table { /*width:950px;*/position: relative; margin-bottom:12px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~過關 old style 改背景色~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.pr_cen {	background-color: #EEDF68; text-align:center;white-space:nowrap;}/*table style*/
+.pr_rig {background-color:#EEDF68; text-align:right;white-space:nowrap;/*解決賠率斷行*/}
+.pr_lef {background-color:#EEDF68; text-align:left;white-space:nowrap;}
+.pr_1st{background-color:#EEDF68;text-align: center; /*width:14%;*/white-space:nowrap;}
+.pr_1stR {background-color:#EEDF68;text-align: right;/* width:14%;*/white-space:nowrap;}
+
+
+#P3box { width:580px;position: relative; margin-bottom:12px;}
+/*Si2New*/
+.game  {	background-color:#B9B9A3;	font-size:0.75em;width: 717px;}
+.mem { border: 2px solid #BC9A3F; border-top-width: 0; border-bottom:1px solid #D7D7C1; padding:3px; background-color:#D7D7C1; clear:both;}
+/*table--外框邊線*/
+.mem .game {	width:100%;	background-color:#B9B9A3;	clear: both;	font-size:12px; border-top:1px solid #B9B9A3;border-left:1px solid #B9B9A3;}
+/*盤面表頭加線*/
+/*.game th, */.more th {color:#000;	background-color:#C8A670;white-space:nowrap;	font-weight: normal;padding-top:3px; border-right:1px solid #B9B9A3; border-bottom:1px solid #B9B9A3;font-family: Arial, Helvetica, SimSun, sans-serif;}
+/*盤面表格加線*/
+/*.game td,*/ .more td { padding:1px 4px; /*white-space:nowrap; */font-size:12px; border-right:1px solid #B9B9A3; border-bottom:1px solid #B9B9A3;font-family: Arial, Helvetica, SimSun, sans-serif;}
+/*取消第二層表格包表格線框*/
+.game td td, .more td td{ border: none;}
+/*隊伍*//*和局*/
+.team_name { line-height:19px; background-color:#FFF; text-align:left; color:#493721; white-space:nowrap;}
+/*.none {border-bottom-color:#FFF!important;}/*取消有和局的底線*/
+.drawn_td  { background-color:#FFF; text-align:left; color:#493721;/*height:18px; padding:0!important;*/}
+
+.b_cen { background-color: #FFF; text-align:center; white-space:nowrap;}/*table style*/
+.b_foot {font-size:11px; text-align:center;}
+.mem tr, .more tr {font-family:"Arial";}
+.b_rig {background-color:#FFF; text-align:right;white-space:nowrap;/*解決賠率斷行*/}
+.b_lef {background-color:#FFF; text-align:left;}
+/*R.B lst tr-color*/
+.b_1st {background-color: #f0f1b5;text-align: center;}
+.b_1stR {background-color: #f0f1b5; text-align: right;white-space:nowrap;/*解決賠率斷行*/}
+/*無賽事欄位*//**/
+.no_game {  clear:both;height:60px; text-align:center; background-color:#FFF; width:722px;font:12px  Arial, Helvetica, sans-serif; padding-top:15px;}/* EN Change */
+/* 無賽事欄位 For fireFox */
+@-moz-document url-prefix() {
+  .no_game_fox {
+	 clear:left;height:60px; line-height:60px; width:652px; text-align:center; background-color: #FFF; width:722px;font:12px  Arial, Helvetica, sans-serif; padding:3px 163px 3px 163px; border:1px solid #B9B9A3;
+  }
+}

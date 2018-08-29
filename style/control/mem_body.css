@@ -1,0 +1,21 @@
+tr {font-family:"Arial"; font-size:12px}
+a:link {color:#CC0000; text-decoration:none; font-weight:bold}
+a:hover {color:#000066; font-weight:bold}
+a:visited {text-decoration:none; font-weight:bold}
+.b_ad {font-size:15px; background-image: url(../../images/member/body_ad12b.gif); padding-top: 4px; font-family: "Arial"; color: #FF6600; padding-right: 3px; padding-left: 3px}
+.b_tab {padding:3px 2px 0px 2px; background-color: #000000}
+.b_title {padding: 4px 3px 2px 5px; background-color: #0084AC; border: #000000; border-style: solid; border-width: 1px 1px 0px 1px}
+.b_hline {text-align:center; background-color: #DADADA}
+.b_lef {background-color:#EBEBEB; text-align:left}
+.b_cen { background-color: #EBEBEB; text-align:center}
+.b_rig {background-color:#EBEBEB; text-align:right}
+.b_fwn {font-weight:normal}
+.za_button {font-family:"Arial"; font-size:12px; height:18px; padding-right:1px; margin-bottom: 2px}
+.za_text {font-family:"Arial"; font-size:12px; height:18px; padding-left:2px; padding-right:2px; background-color: #FFFFFF; border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; padding-bottom: 1px}
+.za_dot {height:12px; width:12px; margin-bottom:2px}
+.b_tline_ft { text-align:center; background-color: #DADADA; padding-top: 3px}
+.b_pradio {  color: #CC0000; background-color: #e4f0f3; font-weight: bold}
+.b_radio { color: #006600; background-color: #e4f0f3 ; font-weight: bold}
+.b_rig_02 { text-align:right ; padding-right: 5px}
+.b_foot {font-size:11px; text-align:right}
+body {  background-image: url(../../images/member/body_back.jpg); background-repeat: no-repeat; background-position: right top; background-attachment: fixed}
