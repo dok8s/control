@@ -106,11 +106,33 @@ function del(){
 }
 </script>
 </head>
+<link rel="stylesheet" href="/style/control/announcement/a1.css" type="text/css">
+<link rel="stylesheet" href="/style/control/announcement/a2.css" type="text/css">
+<link rel="stylesheet" href="../css/loader.css" type="text/css">
+<script src="/js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="/js/ClassSelect_ag.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/style/control/control_main.css" type="text/css">
+<link rel="stylesheet" href="/style/control/calendar.css">
+<link rel="stylesheet" href="/style/control/control_main1.css" type="text/css">
+<link rel="stylesheet" href="/style/home.css" type="text/css">
+<link rel=stylesheet type=text/css href="/style/nav/css/zzsc.css">
+<script type="text/javascript">
+    // 等待所有加载
+    $(window).load(function(){
+        $('body').addClass('loaded');
+        $('#loader-wrapper .load_title').remove();
+    });
+</script>
 <body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" vlink="#0000FF" alink="#0000FF">
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <div class="load_title">正在加载...</div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding-left:20px;padding-top:10px;">
   <tr> 
-    <td class="m_tline">&nbsp;&nbsp;支付方式&nbsp;&nbsp;&nbsp;&nbsp;<a href="?uid=<?=$uid?>&type=Y">新增</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="banks.php?uid=<?=$uid?>">银行卡支付</a></td>
-    <td width="30"><img src="/images/agents/top/top_04.gif" width="30" height="24"></td>
+    <td class="">&nbsp;&nbsp;支付方式&nbsp;&nbsp;&nbsp;&nbsp;<a href="?uid=<?=$uid?>&type=Y">新增</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="banks.php?uid=<?=$uid?>">银行卡支付</a></td>
   </tr>
   <tr> 
     <td colspan="2" height="4"></td>
@@ -119,8 +141,8 @@ function del(){
 <?
 if ($type=='Y'){
 ?>
-<table width="975" border="0" cellpadding="0" cellspacing="1" class="m_tab">
-<form name="myform" action="" method="post" onSubmit="return SubChk();">  
+<table width="975" border="0" cellpadding="0" cellspacing="1" class="m_tab" >
+<form name="myform" action="" method="post" onSubmit="return SubChk();" style="padding-left:20px;">
   <tr class="m_title"> 
     <td width=30>ID</td>
     <td width=80>支付公司</td>
@@ -143,8 +165,8 @@ if ($type=='Y'){
 <?
 }else{
 ?>
-<table width="975" border="0" cellpadding="0" cellspacing="1" class="m_tab">
-<form name="myform" action="" method="post">  
+<table width="975" border="0" cellpadding="0" cellspacing="1" class="m_tab" style="margin-left: 20px;">
+<form name="myform" action="" method="post">
   <tr class="m_title"> 
     <td width=30>ID</td>
     <td width=30>选中</td>
