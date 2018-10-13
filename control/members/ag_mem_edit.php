@@ -84,7 +84,7 @@ else{
 		break;
 	}
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>main</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

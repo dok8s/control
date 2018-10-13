@@ -36,23 +36,23 @@ $mysql = "select *,date_format(BetTime,'%m%d%H%i%s')+id as WID from web_db_io wh
 $result = mysql_query( $mysql );
 $row = mysql_fetch_array( $result );
 
-$is_h = strpos($row['Middle'],'[ÉÏ°ë]')!==false;
+$is_h = strpos($row['Middle'],'[ï¿½Ï°ï¿½]')!==false;
 $matche_type = '';
 $matche_table = '';
 $sqladd='';
 if( ($row['Active']==1 || $row['Active']==2) && in_array($row['LineType'],array(1,11,51,52, 2,12,3,13,9,19,10,30, 4,34, 5, 6)) ){
-	$matche_type = '×ãÇò';
+	$matche_type = 'ï¿½ï¿½ï¿½ï¿½';
 	$matche_table = 'foot_match';
 	$sqladd = $is_h ? ",mb_inball_hr as mb_inball,tg_inball_hr as tg_inball" : ",mb_inball,tg_inball";
 }
 elseif( $row['Active']==3 && in_array($row['LineType'],array(2,3,5,9,10)) ){
-	$matche_type = 'À¶Çò';
+	$matche_type = 'ï¿½ï¿½ï¿½ï¿½';
 	$matche_table = 'bask_match';
 	$sqladd = ",mb_inball,tg_inball";
 }
 
 if ($matche_type==''){
-	echo "<script>alert('²»Ö§³Ö´ËÀà!$row[LineType]');location='javascript:history.back(1)';</script>";
+	echo "<script>alert('ï¿½ï¿½Ö§ï¿½Ö´ï¿½ï¿½ï¿½!$row[LineType]');location='javascript:history.back(1)';</script>";
 }
 
 $sql="select m_start,mb_team,tg_team $sqladd from $matche_table where mid='$row[MID]'";
@@ -65,7 +65,7 @@ if(is_numeric($mb_inball) && is_numeric($tg_inball)){
 }
 ?>
 
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title></title>
 <meta http-equiv=content-type content="text/html; charset=gb2312">
@@ -75,12 +75,12 @@ if(is_numeric($mb_inball) && is_numeric($tg_inball)){
 <form name="myFORM" method="post" action=""><BR>
 <table width="802" border="0" cellspacing="1" cellpadding="8" class="m_tab" bgcolor="#000000">
   <tr class="m_title_ft">
-	  <td width="90" align="center">ÏÂ×¢Ê±¼ä</td>
-	  <td width="90" align="center">ÓÃ»§Ãû³Æ</td>
-	  <td width="90" align="center">µ¥×¢ÖÖÀà</td>
-	  <td width="250" align="center">ƒÈÈÝ</td>
-	  <td width="90" align="center">½»Ò×½ð¶î</td>
-	  <td width="90" align="center">¿ÉÓ®½ð¶î</td>
+	  <td width="90" align="center">ï¿½ï¿½×¢Ê±ï¿½ï¿½</td>
+	  <td width="90" align="center">ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½</td>
+	  <td width="90" align="center">ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½</td>
+	  <td width="250" align="center">ï¿½ï¿½ï¿½ï¿½</td>
+	  <td width="90" align="center">ï¿½ï¿½ï¿½×½ï¿½ï¿½</td>
+	  <td width="90" align="center">ï¿½ï¿½Ó®ï¿½ï¿½ï¿½</td>
   </tr>
   <tr class="m_rig">
 	  <td align="center"><?=str_replace(' ','<BR>',$row['BetTime'])?></td>
@@ -97,11 +97,11 @@ if(is_numeric($mb_inball) && is_numeric($tg_inball)){
      
 <table width="" border="0" cellspacing="1" cellpadding="8" class="m_tab" bgcolor="#000000">
   <tr class="m_title_ft">
-	  <td width="90" align="center">ÊäÓ®½ð¶î</td>
-	  <td width="90" align="center">»áÔ±</td>
-	  <td width="90" align="center">´úÀíÉÌ</td>
-	  <td width="90" align="center">×Ü´úÀí</td>
-	  <td width="90" align="center">¹É¶«</td>
+	  <td width="90" align="center">ï¿½ï¿½Ó®ï¿½ï¿½ï¿½</td>
+	  <td width="90" align="center">ï¿½ï¿½Ô±</td>
+	  <td width="90" align="center">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</td>
+	  <td width="90" align="center">ï¿½Ü´ï¿½ï¿½ï¿½</td>
+	  <td width="90" align="center">ï¿½É¶ï¿½</td>
   </tr>
   <tr class="m_rig">
 	  <td align="center"><?=$row['VGOLD']?></td>
@@ -115,18 +115,18 @@ if(is_numeric($mb_inball) && is_numeric($tg_inball)){
 <? } ?>
 <table width="695" border="0" cellspacing="1" cellpadding="8" class="m_tab" bgcolor="#000000">
   <tr class="m_title_ft">
-	  <td width="90" align="center">Ê±¼ä</td>
-	  <td width="90" align="center">ÇòÈüÖÖÀà</td>
-	  <td width="357" align="center">Çò¶Ó</td>
-	  <td width="90" align="center"><?=$is_h?'ÉÏ°ë':''?>±È·Ö</td>
+	  <td width="90" align="center">Ê±ï¿½ï¿½</td>
+	  <td width="90" align="center">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</td>
+	  <td width="357" align="center">ï¿½ï¿½ï¿½</td>
+	  <td width="90" align="center"><?=$is_h?'ï¿½Ï°ï¿½':''?>ï¿½È·ï¿½</td>
   </tr>
   <tr class="m_rig">
 	  <td align="center" rowspan=2><?=str_replace(' ','<BR>',$match['m_start'])?></td>
 	  <td align="center" rowspan=2><?=$matche_type?></td>
-	  <td align="right"><?=$match['mb_team']?> <font color=blue>(Ö÷¶Ó)</font> </td>
+	  <td align="right"><?=$match['mb_team']?> <font color=blue>(ï¿½ï¿½ï¿½ï¿½)</font> </td>
 	  <td align="center"><input size=4 type="text" name="mb_inball" value="<?=$match['mb_inball']?>"></td>
   </tr><tr class="m_rig">
-	  <td align="right"><?=$match['tg_team']?> <font color=blue>(¿Í¶Ó)</font> </td>
+	  <td align="right"><?=$match['tg_team']?> <font color=blue>(ï¿½Í¶ï¿½)</font> </td>
 	  <td align="center"><input size=4 type="text" name="tg_inball" value="<?=$match['tg_inball']?>"></td>
   </tr>
 </table>
@@ -135,10 +135,10 @@ if(is_numeric($mb_inball) && is_numeric($tg_inball)){
 <table width="802" border="0" cellspacing="0" cellpadding="0" class="m_tab" bgcolor="#000000">
   <tr class="m_rig">
 	  <td align="center">
-		<?=$is_settlement ? '<BR><font color=#ff0000>ÒÑ³É¹¦½áËã</font><BR>': ''?>
-		<BR><INPUT TYPE="submit" value=" ½áËã " <?=$is_settlement ? 'disabled=true' :''?>>
-		&nbsp; &nbsp; &nbsp;<INPUT TYPE="button" VALUE=" ·µ»Ø " ONCLICK="self.location='<?=$referer?>'">
-		<BR><BR>×¢£ºÊäÈëµÄ±È·ÖÖ»¶Ô±¾´Î½áËãÓÐÐ§
+		<?=$is_settlement ? '<BR><font color=#ff0000>ï¿½Ñ³É¹ï¿½ï¿½ï¿½ï¿½ï¿½</font><BR>': ''?>
+		<BR><INPUT TYPE="submit" value=" ï¿½ï¿½ï¿½ï¿½ " <?=$is_settlement ? 'disabled=true' :''?>>
+		&nbsp; &nbsp; &nbsp;<INPUT TYPE="button" VALUE=" ï¿½ï¿½ï¿½ï¿½ " ONCLICK="self.location='<?=$referer?>'">
+		<BR><BR>×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±È·ï¿½Ö»ï¿½Ô±ï¿½ï¿½Î½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§
 		</td>
   </tr>
 </table>

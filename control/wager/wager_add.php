@@ -86,7 +86,7 @@ case 3 :
 				$sql = "update web_member set edtvou=0 where id=".$mid;
 				mysql_query( $sql );
 }
-echo "<html>\r\n<head>\r\n<title>main</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<style type=\"text/css\">\r\n<!--\r\n.m_title {  background-color: #FEF5B5; text-align: center}\r\n-->\r\n</style>\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<SCRIPT language=\"javascript\" src=\"/js/member.js\"></script>\r\n<SCRIPT>\r\n\r\n function onLoad()\r\n {\r\n  //var obj_sagent_id = document.getElementById('agent_id');\r\n  //obj_sagent_id.value = '";
+echo "<html style=\"width: 98%;margin: 0 auto;\">\r\n<head>\r\n<title>main</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<style type=\"text/css\">\r\n<!--\r\n.m_title {  background-color: #FEF5B5; text-align: center}\r\n-->\r\n</style>\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<SCRIPT language=\"javascript\" src=\"/js/member.js\"></script>\r\n<SCRIPT>\r\n\r\n function onLoad()\r\n {\r\n  //var obj_sagent_id = document.getElementById('agent_id');\r\n  //obj_sagent_id.value = '";
 echo $agid;
 echo "';\r\n  var obj_enable = document.getElementById('enable');\r\n  obj_enable.value = '";
 echo $enable;

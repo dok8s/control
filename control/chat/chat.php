@@ -49,7 +49,7 @@ if($action=='send'){
 
 
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>会话</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

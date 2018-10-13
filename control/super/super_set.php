@@ -58,7 +58,7 @@ $row = mysql_fetch_array( $result );
 $alias = $row['Alias'];
 $langx = "zh-cn";
 require( "../../member/include/traditional.".$langx.".inc.php" );
-echo "<html>\r\n<head>\r\n<title>set</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<style type=\"text/css\">\r\n<!--\r\n.m_ag_ed {  background-color: #bdd1de; text-align: right}\r\n-->\r\n</style>\r\n<script language=\"javascript1.2\" src=\"/js/ag_set.js\"></script>\r\n</head>\r\n<body oncontextmenu=\"window.event.returnValue=false\" bgcolor=\"#FFFFFF\" text=\"#000000\" leftmargin=\"0\" topmargin=\"0\" vlink=\"#0000FF\" alink=\"#0000FF\">\r\n<table width=\"780\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n  <tr>\r\n    <td class=\"m_tline\">&nbsp;&nbsp;股东详细设定&nbsp;&nbsp;&nbsp;";
+echo "<html style=\"width: 98%;margin: 0 auto;\">\r\n<head>\r\n<title>set</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<style type=\"text/css\">\r\n<!--\r\n.m_ag_ed {  background-color: #bdd1de; text-align: right}\r\n-->\r\n</style>\r\n<script language=\"javascript1.2\" src=\"/js/ag_set.js\"></script>\r\n</head>\r\n<body oncontextmenu=\"window.event.returnValue=false\" bgcolor=\"#FFFFFF\" text=\"#000000\" leftmargin=\"0\" topmargin=\"0\" vlink=\"#0000FF\" alink=\"#0000FF\">\r\n<table width=\"780\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n  <tr>\r\n    <td class=\"m_tline\">&nbsp;&nbsp;股东详细设定&nbsp;&nbsp;&nbsp;";
 echo $sub_user;
 echo ":";
 echo $row['Agname'];

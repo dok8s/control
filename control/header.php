@@ -19,7 +19,7 @@ if ( $cou == 0 )
 	exit;
 }
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>皇冠线上管理系统</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

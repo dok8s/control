@@ -65,7 +65,7 @@ mysql_query($mysql);
 	
 	$enddate = $row['enddate']=='0000-00-00 00:00:00' ? '0' : $row['enddate'];
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>main</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

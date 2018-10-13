@@ -139,40 +139,40 @@ case 1 :
 												$m_place_en = $tg_team_en;
 								}
 								$team = $middle[$count - 1];
-								if ( strstr( $team, "ÉÏ°ë" ) )
+								if ( strstr( $team, "ï¿½Ï°ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÉÏ°ë]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Ï°ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[1st]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "ÏÂ°ë" ) )
+								else if ( strstr( $team, "ï¿½Â°ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÏÂ°ë]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Â°ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[2st]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ1½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½1ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä1¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ1½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½1ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½1ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q1]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ2½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½2ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä2¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ2½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½2ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½2ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q2]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ3½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½3ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä3¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ3½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½3ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½3ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q3]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ4½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½4ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä4¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ4½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½4ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½4ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q4]</font>&nbsp;";
 								}
 								else
@@ -194,51 +194,51 @@ case 1 :
 								{
 												$mtype = "H";
 												$m_place = "Ð¡".$pan;
-												$m_place_tw = "¤p".$pan;
+												$m_place_tw = "ï¿½p".$pan;
 												$m_place_en = "U".$pan;
 								}
 								else
 								{
 												$mtype = "C";
-												$m_place = "´ó".$pan;
-												$m_place_tw = "¤j".$pan;
+												$m_place = "ï¿½ï¿½".$pan;
+												$m_place_tw = "ï¿½j".$pan;
 												$m_place_en = "O".$pan;
 								}
 								$team = $middle[$count - 1];
-								if ( strstr( $team, "ÉÏ°ë" ) )
+								if ( strstr( $team, "ï¿½Ï°ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÉÏ°ë]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Ï°ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[1st]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "ÏÂ°ë" ) )
+								else if ( strstr( $team, "ï¿½Â°ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÏÂ°ë]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Â°ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[2st]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ1½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½1ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä1¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ1½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½1ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½1ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q1]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ2½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½2ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä2¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ2½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½2ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½2ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q2]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ3½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½3ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä3¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ3½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½3ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½3ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q3]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ4½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½4ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä4¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ4½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½4ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½4ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q4]</font>&nbsp;";
 								}
 								else
@@ -304,40 +304,40 @@ case 1 :
 												$m_place_en = $tg_team_en;
 								}
 								$team = $middle[$count - 1];
-								if ( strstr( $team, "ÉÏ°ë" ) )
+								if ( strstr( $team, "ï¿½Ï°ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÉÏ°ë]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Ï°ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[1st]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "ÏÂ°ë" ) )
+								else if ( strstr( $team, "ï¿½Â°ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÏÂ°ë]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Â°ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[2st]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ1½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½1ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä1¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ1½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½1ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½1ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q1]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ2½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½2ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä2¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ2½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½2ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½2ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q2]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ3½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½3ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä3¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ3½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½3ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½3ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q3]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ4½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½4ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä4¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ4½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½4ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½4ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q4]</font>&nbsp;";
 								}
 								else
@@ -401,8 +401,8 @@ case 1 :
 												$m_place_tw = $tg_team_tw;
 												$m_place_en = $tg_team_en;
 								}
-								$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-								$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÉÏ°ë]</font>&nbsp;";
+								$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+								$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Ï°ï¿½]</font>&nbsp;";
 								$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[1st]</font>&nbsp;";
 								$lines2 = $middle1."<FONT color=#cc0000>".$m_place."</FONT>&nbsp;".$bottom1."@&nbsp;<FONT color=#cc0000><b>".$rate."</b></FONT>";
 								$lines2_tw = $middle_tw1."<FONT color=#cc0000>".$m_place_tw."</FONT>&nbsp;".$bottom1_tw."@&nbsp;<FONT color=#cc0000><b>".$rate."</b></FONT>";
@@ -417,51 +417,51 @@ case 1 :
 								{
 												$mtype = "H";
 												$m_place = "Ð¡".$pan;
-												$m_place_tw = "¤p".$pan;
+												$m_place_tw = "ï¿½p".$pan;
 												$m_place_en = "U".$pan;
 								}
 								else
 								{
 												$mtype = "C";
-												$m_place = "´ó".$pan;
-												$m_place_tw = "¤j".$pan;
+												$m_place = "ï¿½ï¿½".$pan;
+												$m_place_tw = "ï¿½j".$pan;
 												$m_place_en = "O".$pan;
 								}
 								$team = $middle[$count - 1];
-								if ( strstr( $team, "ÉÏ°ë" ) )
+								if ( strstr( $team, "ï¿½Ï°ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÉÏ°ë]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Ï°ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[1st]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "ÏÂ°ë" ) )
+								else if ( strstr( $team, "ï¿½Â°ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÏÂ°ë]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Â°ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[2st]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ1½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½1ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä1¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ1½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½1ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½1ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q1]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ2½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½2ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä2¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ2½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½2ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½2ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q2]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ3½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½3ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä3¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ3½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½3ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½3ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q3]</font>&nbsp;";
 								}
-								else if ( strstr( $team, "µÚ4½Ú" ) )
+								else if ( strstr( $team, "ï¿½ï¿½4ï¿½ï¿½" ) )
 								{
-												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[²Ä4¸`]</font>&nbsp;";
-												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[µÚ4½Ú]</font>&nbsp;";
+												$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½4ï¿½`]</font>&nbsp;";
+												$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½ï¿½4ï¿½ï¿½]</font>&nbsp;";
 												$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[Q4]</font>&nbsp;";
 								}
 								else
@@ -483,18 +483,18 @@ case 1 :
 								{
 												$mtype = "H";
 												$m_place = "Ð¡".$pan;
-												$m_place_tw = "¤p".$pan;
+												$m_place_tw = "ï¿½p".$pan;
 												$m_place_en = "U".$pan;
 								}
 								else
 								{
 												$mtype = "C";
-												$m_place = "´ó".$pan;
-												$m_place_tw = "¤j".$pan;
+												$m_place = "ï¿½ï¿½".$pan;
+												$m_place_tw = "ï¿½j".$pan;
 												$m_place_en = "O".$pan;
 								}
-								$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-								$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÉÏ°ë]</font>&nbsp;";
+								$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+								$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Ï°ï¿½]</font>&nbsp;";
 								$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[1st]</font>&nbsp;";
 								$lines2 = $middle1."<FONT color=#cc0000>".$m_place."</FONT>&nbsp;".$bottom1."@&nbsp;<FONT color=#cc0000><b>".$rate."</b></FONT>";
 								$lines2_tw = $middle_tw1."<FONT color=#cc0000>".$m_place_tw."</FONT>&nbsp;".$bottom1_tw."@&nbsp;<FONT color=#cc0000><b>".$rate."</b></FONT>";
@@ -551,8 +551,8 @@ case 1 :
 												$m_place_tw = $tg_team_tw;
 												$m_place_en = $tg_team_en;
 								}
-								$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-								$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÉÏ°ë]</font>&nbsp;";
+								$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+								$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Ï°ï¿½]</font>&nbsp;";
 								$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[1st]</font>&nbsp;";
 								$lines2 = $middle1."<FONT color=#cc0000>".$m_place."</FONT>&nbsp;".$bottom1."@&nbsp;<FONT color=#cc0000><b>".$rate."</b></FONT>";
 								$lines2_tw = $middle_tw1."<FONT color=#cc0000>".$m_place_tw."</FONT>&nbsp;".$bottom1_tw."@&nbsp;<FONT color=#cc0000><b>".$rate."</b></FONT>";
@@ -567,18 +567,18 @@ case 1 :
 								{
 												$mtype = "H";
 												$m_place = "Ð¡".$pan;
-												$m_place_tw = "¤p".$pan;
+												$m_place_tw = "ï¿½p".$pan;
 												$m_place_en = "U".$pan;
 								}
 								else
 								{
 												$mtype = "C";
-												$m_place = "´ó".$pan;
-												$m_place_tw = "¤j".$pan;
+												$m_place = "ï¿½ï¿½".$pan;
+												$m_place_tw = "ï¿½j".$pan;
 												$m_place_en = "O".$pan;
 								}
-								$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[¤W¥b]</font>&nbsp;";
-								$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ÉÏ°ë]</font>&nbsp;";
+								$bottom1_tw = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Wï¿½b]</font>&nbsp;";
+								$bottom1 = "<font color=red>-&nbsp;</font><font color=gray>[ï¿½Ï°ï¿½]</font>&nbsp;";
 								$bottom1_en = "<font color=red>-&nbsp;</font><font color=gray>[1st]</font>&nbsp;";
 								$lines2 = $middle1."<FONT color=#cc0000>".$m_place."</FONT>&nbsp;".$bottom1."@&nbsp;<FONT color=#cc0000><b>".$rate."</b></FONT>";
 								$lines2_tw = $middle_tw1."<FONT color=#cc0000>".$m_place_tw."</FONT>&nbsp;".$bottom1_tw."@&nbsp;<FONT color=#cc0000><b>".$rate."</b></FONT>";
@@ -660,15 +660,15 @@ case 4 :
 }
 $mysql = "select date_format(BetTime,'%m%d%H%i%s')+id as WID,danger,QQ526738,result_type,cancel,id,date_format(BetTime,'%m-%d <br> %H:%i:%s') as BetTime,M_Name,TurnRate,BetType,M_result,Middle,BetScore,pay_type,linetype,edit,odd_type from web_db_io where m_name='".trim( $username )."' and m_date='".$gdate."' order by bettime desc,linetype,mtype";
 $result = mysql_query( $mysql );
-echo "<html>\r\n<head>\r\n<title></title>\r\n<META http-equiv=Content-Type content=\"text/html; charset=gb2312\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<META content=\"Microsoft FrontPage 4.0\" name=GENERATOR>\r\n<SCRIPT>\r\n<!--\r\n function onLoad()\r\n {\r\n  var gdate = document.getElementById('gdate');\r\n  gdate.value = '";
+echo "<html style=\"width: 98%;margin: 0 auto;\">\r\n<head>\r\n<title></title>\r\n<META http-equiv=Content-Type content=\"text/html; charset=gb2312\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<META content=\"Microsoft FrontPage 4.0\" name=GENERATOR>\r\n<SCRIPT>\r\n<!--\r\n function onLoad()\r\n {\r\n  var gdate = document.getElementById('gdate');\r\n  gdate.value = '";
 echo $gdate;
-echo "';\r\n }\r\nfunction CheckCLOSE(str)\r\n {\r\n  if(confirm(\"È·ÊµÒªÈ¡Ïû±¾³¡±ÈÈüÂð?\"))\r\n  document.location=str;\r\n }\r\n function reload()\r\n{\r\n\r\n\tself.location.href='wager_list.php?uid=";
+echo "';\r\n }\r\nfunction CheckCLOSE(str)\r\n {\r\n  if(confirm(\"È·ÊµÒªÈ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?\"))\r\n  document.location=str;\r\n }\r\n function reload()\r\n{\r\n\r\n\tself.location.href='wager_list.php?uid=";
 echo $uid;
 echo "&username=";
 echo $username;
 echo "&gdate=";
 echo $gdate;
-echo "';\r\n}\r\nfunction Del(str)\r\n {\r\n  if(confirm(\"È·ÊµÒªÉ¾³ý±ÈÍ¶×¢¼ÍÂ¼Âð?\"))\r\n  document.location=str;\r\n }\r\n\r\n// -->\r\n</SCRIPT>\r\n</HEAD>\r\n<body bgcolor=\"#FFFFFF\" text=\"#000000\" leftmargin=\"0\" topmargin=\"0\" vlink=\"#0000FF\" alink=\"#0000FF\"  onload=\"onLoad()\";>\r\n<form name=\"myFORM\" method=\"post\" action=\"\">\r\n<table width=\"769\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n  <tr>\r\n          <td class=\"m_tline\" width=\"744\">×¢µ¥¹ÜÀí&nbsp;&nbsp;<input name=button type=button class=\"za_button\" onclick=\"reload()\" value=\"¸üÐÂ\"> &nbsp;&nbsp;Í¶×¢ÈÕÆÚ£º<font color=\"#cc0000\">\r\n                    <select class=za_select onchange=document.myFORM.submit(); name=gdate>\r\n\t\t\t\t<option value=\"\"></option>\r\n\t\t\t\t";
+echo "';\r\n}\r\nfunction Del(str)\r\n {\r\n  if(confirm(\"È·ÊµÒªÉ¾ï¿½ï¿½ï¿½ï¿½Í¶×¢ï¿½ï¿½Â¼ï¿½ï¿½?\"))\r\n  document.location=str;\r\n }\r\n\r\n// -->\r\n</SCRIPT>\r\n</HEAD>\r\n<body bgcolor=\"#FFFFFF\" text=\"#000000\" leftmargin=\"0\" topmargin=\"0\" vlink=\"#0000FF\" alink=\"#0000FF\"  onload=\"onLoad()\";>\r\n<form name=\"myFORM\" method=\"post\" action=\"\">\r\n<table width=\"769\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n  <tr>\r\n          <td class=\"m_tline\" width=\"744\">×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½&nbsp;&nbsp;<input name=button type=button class=\"za_button\" onclick=\"reload()\" value=\"ï¿½ï¿½ï¿½ï¿½\"> &nbsp;&nbsp;Í¶×¢ï¿½ï¿½ï¿½Ú£ï¿½<font color=\"#cc0000\">\r\n                    <select class=za_select onchange=document.myFORM.submit(); name=gdate>\r\n\t\t\t\t<option value=\"\"></option>\r\n\t\t\t\t";
 $dd = 86400;
 $t = time( );
 $aa = 0;
@@ -687,9 +687,9 @@ for ( $i = 0;	$i < 31;	$i++	)
 	}
 	$t -= $dd;
 }
-echo "\t\t\t</select>\r\n            </font>&nbsp;&nbsp;&nbsp;&nbsp;ÕÊºÅ:<font color=\"cc0000\">\r\n            ";
+echo "\t\t\t</select>\r\n            </font>&nbsp;&nbsp;&nbsp;&nbsp;ï¿½Êºï¿½:<font color=\"cc0000\">\r\n            ";
 echo $username;
-echo "            </font>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"javascript:history.go( -1 );\"> »ØÉÏÒ»Ò³</a>&nbsp;&nbsp;</font></font></td>\r\n    <td width=\"32\"><img src=\"/images/control/top_04.gif\" width=\"30\" height=\"24\"></td>\r\n  </tr>\r\n  <tr>\r\n    <td colspan=\"2\" height=\"4\" width=\"778\">\r\n<table width=\"769\" border=\"0\" align=\"left\" cellPadding=\"0\" cellSpacing=\"0\" background=\"/images/body_title_ph12b.gif\" class=\"b_title\">\r\n  <tbody>\r\n\r\n    <tr>\r\n       <td width=\"394\"><div align=\"right\"></div></td>\r\n                  <td width=\"375\">&nbsp;</td>\r\n    </tr>\r\n\r\n  </tbody>\r\n</table>\r\n    </td>\r\n  </tr>\r\n</table>\r\n      <table width=\"\" border=\"0\" cellspacing=\"1\" cellpadding=\"0\" class=\"m_tab\" bgcolor=\"#000000\">\r\n  <tr class=\"m_title_ft\">\r\n          <td width=\"60\"align=\"center\">Í¶×¢Ê±¼ä</td>\r\n          <td width=\"90\" align=\"center\">ÓÃ»§Ãû³Æ</td>\r\n          <td width=\"100\" align=\"center\">ÇòÈüÖÖÀà</td>\r\n          <td width=\"230\" align=\"center\">ƒÈÈÝ</td>\r\n          <td width=\"70\" align=\"center\">Í¶×¢</td>\r\n          <td width=\"70\" align=\"center\">»áÔ±</td>\r\n          <td width=\"180\" align=\"center\">¹¦ÄÜ</td>\r\n        </tr>\r\n        ";
+echo "            </font>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"javascript:history.go( -1 );\"> ï¿½ï¿½ï¿½ï¿½Ò»Ò³</a>&nbsp;&nbsp;</font></font></td>\r\n    <td width=\"32\"><img src=\"/images/control/top_04.gif\" width=\"30\" height=\"24\"></td>\r\n  </tr>\r\n  <tr>\r\n    <td colspan=\"2\" height=\"4\" width=\"778\">\r\n<table width=\"769\" border=\"0\" align=\"left\" cellPadding=\"0\" cellSpacing=\"0\" background=\"/images/body_title_ph12b.gif\" class=\"b_title\">\r\n  <tbody>\r\n\r\n    <tr>\r\n       <td width=\"394\"><div align=\"right\"></div></td>\r\n                  <td width=\"375\">&nbsp;</td>\r\n    </tr>\r\n\r\n  </tbody>\r\n</table>\r\n    </td>\r\n  </tr>\r\n</table>\r\n      <table width=\"\" border=\"0\" cellspacing=\"1\" cellpadding=\"0\" class=\"m_tab\" bgcolor=\"#000000\">\r\n  <tr class=\"m_title_ft\">\r\n          <td width=\"60\"align=\"center\">Í¶×¢Ê±ï¿½ï¿½</td>\r\n          <td width=\"90\" align=\"center\">ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½</td>\r\n          <td width=\"100\" align=\"center\">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</td>\r\n          <td width=\"230\" align=\"center\">ï¿½ï¿½ï¿½ï¿½</td>\r\n          <td width=\"70\" align=\"center\">Í¶×¢</td>\r\n          <td width=\"70\" align=\"center\">ï¿½ï¿½Ô±</td>\r\n          <td width=\"180\" align=\"center\">ï¿½ï¿½ï¿½ï¿½</td>\r\n        </tr>\r\n        ";
 while ( $row = mysql_fetch_array( $result ) )
 {
 				$url = "wager_list.php?uid=".$uid."&id=".$row[id]."&active=1&username=".$username."&gdate=".$gdate;
@@ -709,13 +709,13 @@ while ( $row = mysql_fetch_array( $result ) )
 				switch ( $row['danger'] )
 				{
 				case 1 :
-								echo "<br><font color=#ffffff style=background-color:#ff0000><b>&nbsp;È·ÈÏÖÐ&nbsp;</b></font></font>";
+								echo "<br><font color=#ffffff style=background-color:#ff0000><b>&nbsp;È·ï¿½ï¿½ï¿½ï¿½&nbsp;</b></font></font>";
 								break;
 				case 2 :
-								echo "<br><font color=#ffffff style=background-color:#ff0000><b>Î´È·ÈÏ</b></font></font>";
+								echo "<br><font color=#ffffff style=background-color:#ff0000><b>Î´È·ï¿½ï¿½</b></font></font>";
 								break;
 				case 3 :
-								echo "<br><font color=#ffffff style=background-color:#ff0000><b>&nbsp;È·ÈÏ&nbsp;</b></font></font>";
+								echo "<br><font color=#ffffff style=background-color:#ff0000><b>&nbsp;È·ï¿½ï¿½&nbsp;</b></font></font>";
 				}
 				echo "<BR>($row[linetype])";
 				echo "</td>\r\n  <td align=\"right\">\r\n  ";
@@ -752,12 +752,12 @@ while ( $row = mysql_fetch_array( $result ) )
 				echo number_format( $row['M_result'], 1 );
 				echo "</td>\r\n  <td align=\"center\">&nbsp;&nbsp;\r\n  \t";
 				if (in_array($row['linetype'],array(2,3,12,13,9,10,19,30))){
-					echo "<a href='".$url."'>¶Ôµ÷</a> / 
-					<a href='wager_edit.php?uid=$uid&id=$row[id]&username=$username&gdate=$gdate'>ÐÞ¸Ä</a> / ";
+					echo "<a href='".$url."'>ï¿½Ôµï¿½</a> / 
+					<a href='wager_edit.php?uid=$uid&id=$row[id]&username=$username&gdate=$gdate'>ï¿½Þ¸ï¿½</a> / ";
 				}
-				//¶ÀÓ®¡¢´®£¬Ö»ÐÞ¸Ä²»ÄÜ¶Ôµ÷
+				//ï¿½ï¿½Ó®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½Þ¸Ä²ï¿½ï¿½Ü¶Ôµï¿½
 				if (in_array($row['linetype'],array(1,11,51,52,17,8))){
-					echo "<a href='wager_edit.php?uid=$uid&id=$row[id]&username=$username&gdate=$gdate'>ÐÞ¸Ä</a> / ";
+					echo "<a href='wager_edit.php?uid=$uid&id=$row[id]&username=$username&gdate=$gdate'>ï¿½Þ¸ï¿½</a> / ";
 				}
 				echo "  <a href=javascript:Del(\"wager_list.php?uid=";
 				echo $uid;
@@ -767,7 +767,7 @@ while ( $row = mysql_fetch_array( $result ) )
 				echo $username;
 				echo "&gdate=";
 				echo $gdate;
-				echo "\")>É¾³ý</a></td>\r\n        </tr>\r\n        ";
+				echo "\")>É¾ï¿½ï¿½</a></td>\r\n        </tr>\r\n        ";
 }
 echo "      </table>\r\n</form>\r\n</BODY>\r\n</html>\r\n";
 ?>

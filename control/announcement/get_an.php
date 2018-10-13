@@ -38,7 +38,7 @@ $sql="select * from web_marquee where level=$level $where order by ntime $order"
 $result = mysql_query($sql);
 
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

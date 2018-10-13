@@ -81,7 +81,7 @@ $langx='zh-cn';
 require ("../../member/include/traditional.$langx.inc.php");
 
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

@@ -14,7 +14,7 @@ $langx		='zh-cn';
 
 
 
-$sql = "select id from web_sytnet where uid='$uid' and status=1";
+$sql = "select id,level from web_sytnet where uid='$uid' and status=1";
 $result = mysql_db_query($dbname,$sql);
 $row = mysql_fetch_array($result);
 $cou=mysql_num_rows($result);
@@ -22,25 +22,23 @@ if($cou==0){
 	echo "<script>window.open('$site/index.php','_top')</script>";
 	exit;
 }
-
+$agname=$row['agname'];
 require ("../member/include/traditional.$langx.inc.php");
 
-$sql = "select agname from web_sytnet where Oid='$uid'";
-$result = mysql_query($sql);
+//$sql = "select agname from web_sytnet where Oid='$uid'";
+//$result = mysql_query($sql);
 //$row = mysql_fetch_array($result);
-$agname=$row['agname'];
+//
+//$sql = "select agname from web_sytnet where subuser=1 and subname='$agname'";
+//$result = mysql_query($sql);
 
-$sql = "select agname from web_sytnet where subuser=1 and subname='$agname'";
-$result = mysql_query($sql);
 
-
-$sql = "select * from web_system";
-$result = mysql_db_query($dbname,$sql);
-$row = mysql_fetch_array($result);
-$messages=$row['msg_member'];
-
+//$sql = "select * from web_system";
+//$result = mysql_db_query($dbname,$sql);
+//$row = mysql_fetch_array($result);
+//$messages=$row['msg_member'];
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -56,7 +54,7 @@ $messages=$row['msg_member'];
 .m_title_ce {background-color: #669999; text-align: center; color: #FFFFFF}
 
 div.bac {
-	margin:10;
+	margin:10px;
 	width:740px;
 	color: #000;
 	padding:5px;

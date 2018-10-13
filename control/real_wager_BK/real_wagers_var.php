@@ -71,7 +71,7 @@ while ($row=mysql_fetch_array($result)){
 echo $rtype;
 
 ?>
-<HTML>
+<HTML style="width: 98%;margin: 0 auto;">
 <HEAD>
 <TITLE>足球变数值</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">

@@ -28,7 +28,7 @@ $list = $text->read_file();
 //print_r($list);
 */
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <title></title>
@@ -49,9 +49,9 @@ else{
 	parselimit-=1
 	curmin=Math.floor(parselimit)
 	if (curmin!=0)
-		curtime=curmin+"Ãëºó×Ô¶¯¸üÐÂ£¡"
+		curtime=curmin+"ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Â£ï¿½"
 	else
-		curtime=cursec+"Ãëºó×Ô¶¯¸üÐÂ£¡"
+		curtime=cursec+"ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Â£ï¿½"
 		timeinfo.innerText=curtime
 		setTimeout("beginrefresh()",1000)
 	}
@@ -74,10 +74,10 @@ file://-->
 
  <table width="773" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td class="m_tline" width="746">&nbsp;ÏßÉÏÊý¾Ý£­<font color="#CC0000">ÈÕÖ¾</font><font color="#CC0000">&nbsp;</font><input name=button type=button class="za_button" onclick="reload()" value="¸üÐÂ">&nbsp;&nbsp;&nbsp;&nbsp;
+      <td class="m_tline" width="746">&nbsp;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½<font color="#CC0000">ï¿½ï¿½Ö¾</font><font color="#CC0000">&nbsp;</font><input name=button type=button class="za_button" onclick="reload()" value="ï¿½ï¿½ï¿½ï¿½">&nbsp;&nbsp;&nbsp;&nbsp;
         <span id="timeinfo"></span>&nbsp;&nbsp;
               <input type="text" size=16 name="username" value="<?=$username?>">
-            &nbsp;--¹ÜÀíÄ£Ê½:WEBÒ³Ãæ -- <a href="javascript:history.go( -1 );">»ØÉÏÒ»í“</a></td>
+            &nbsp;--ï¿½ï¿½ï¿½ï¿½Ä£Ê½:WEBÒ³ï¿½ï¿½ -- <a href="javascript:history.go( -1 );">ï¿½ï¿½ï¿½ï¿½Ò»ï¿½</a></td>
       <td width="34"><img src="/images/control/top_04.gif" width="30" height="24"></td>
     </tr>
   </table>
@@ -89,11 +89,11 @@ file://-->
 
 <table id="glist_table" border="0" cellspacing="1" cellpadding="0"  bgcolor="006255" class="m_tab" width="100%">
   <tr class="m_title_ft">
-    <td width="100">´úÀí </td>
-		<td width="100">»áÔ±Ãû³Æ </td>
-    <td width="300">×îºó»î¶¯Ê±¼ä</td>
-    <td width="150">µÇÂ½IP</td>
-    <!--td width="100">²Ù×÷</td-->
+    <td width="100">ï¿½ï¿½ï¿½ï¿½ </td>
+		<td width="100">ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ </td>
+    <td width="300">ï¿½ï¿½ï¿½î¶¯Ê±ï¿½ï¿½</td>
+    <td width="150">ï¿½ï¿½Â½IP</td>
+    <!--td width="100">ï¿½ï¿½ï¿½ï¿½</td-->
   </tr>
   <?
 	for($i=count($list)-1;$i>=0;$i--){

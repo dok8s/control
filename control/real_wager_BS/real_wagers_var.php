@@ -106,7 +106,7 @@ while ($row=mysql_fetch_array($result)){
 }
 
 ?>
-<HTML><HEAD><TITLE>足球变数值</TITLE>
+<HTML style="width: 98%;margin: 0 auto;"><HEAD><TITLE>足球变数值</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">
 <SCRIPT language=JavaScript>
 parent.t_page=<?=$page_count?>;

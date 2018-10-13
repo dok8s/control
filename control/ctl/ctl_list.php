@@ -39,7 +39,7 @@ $mrow = mysql_fetch_array($result1);
 $mysql="select odd_type,status,QQ526738,result_type,danger,cancel,id,mid,linetype,date_format(BetTime,'%m-%d <br> %H:%i:%s') as BetTime,date_format(BetTime,'%m%d%H%i%s')+id as bid,M_Name,TurnRate,BetType,M_result,Middle,BetScore from web_db_io where FIND_IN_SET($gid,mid)>0 and hidden=0 order by bettime,linetype,mtype";
 $result = mysql_query( $mysql);
 ?>
-<HTML>
+<HTML style="width: 98%;margin: 0 auto;">
 <HEAD>
 <TITLE></TITLE>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">

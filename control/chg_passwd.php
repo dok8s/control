@@ -26,7 +26,7 @@ if($action=="1"){
 	exit;
 }
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>更改密码</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

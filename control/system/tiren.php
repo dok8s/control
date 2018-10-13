@@ -47,7 +47,7 @@ else
 					if($h>=160) {
 					$l = ord($Text[$i+1]);
 					if($h==161 && $l==64) {
-					$big = "　";
+					$big = "锟斤拷";
 					}else{
 					$p = ($h-160)*510+($l-1)*2;
 					$big = $gb[$p].$gb[$p+1];
@@ -223,7 +223,7 @@ else
 				$result = mysql_query( $sql );
 				$row = mysql_fetch_array( $result );
 				$setdata = @unserialize($row['setdata']);
-				echo "<html>\r\n<head>\r\n<title></title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<SCRIPT language=javaScript src=\"/js/report_func.js\" type=text/javascript></SCRIPT>\r\n<style type=\"text/css\">\r\n<!--\r\n.m_ag_ed {  background-color: #bdd1de; text-align: right}\r\n-->\r\n</style>\r\n</head>\r\n<body oncontextmenu=\"window.event.returnValue=false\" bgcolor=\"#FFFFFF\" text=\"#000000\" leftmargin=\"0\" topmargin=\"0\" vlink=\"#0000FF\" alink=\"#0000FF\" >\r\n<table width=\"775\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n  <tr>\r\n    <td class=\"m_tline\">&nbsp;&nbsp; 系统参数 -- 详细设置&nbsp;&nbsp;&nbsp; </td>\r\n    <td width=\"30\"><img src=\"/images/control/zh-tw/top_04.gif\" width=\"30\" height=\"24\"></td>\r\n  </tr>\r\n  <tr>\r\n    <td colspan=\"2\" height=\"4\"></td>\r\n  </tr>\r\n</table>\r\n\r\n<table width=\"770\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <tr class=\"m_bc_ed\">\r\n    <td colspan=\"7\" align=\"center\" bgcolor=\"6EC13E\"><b>数据来源 </b></td>\r\n  </tr>\r\n  <TR class=m_title_edit>\r\n    <td width=58>&nbsp;</td>\r\n    <td width=180>网址 </td>\r\n    <!--td width=150>简体</td-->\r\n    <td width=200>繁体</td>\r\n    <td width=200>英文</td>\r\n    <td width=100>uid接收方式</td>\r\n    <td width=70>&nbsp; </td>\r\n  </TR>\r\n  <form name=FTR action=\"\" method=post>\r\n    <TR class=m_cen>\r\n      <td height=\"23\" align=right class=m_ag_ed>用户名 </td>\r\n      <td align=center><input class=za_text  size=25 value=\"";
+				echo "<html style=\"width: 98%;margin: 0 auto;\">\r\n<head>\r\n<title></title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<SCRIPT language=javaScript src=\"/js/report_func.js\" type=text/javascript></SCRIPT>\r\n<style type=\"text/css\">\r\n<!--\r\n.m_ag_ed {  background-color: #bdd1de; text-align: right}\r\n-->\r\n</style>\r\n</head>\r\n<body oncontextmenu=\"window.event.returnValue=false\" bgcolor=\"#FFFFFF\" text=\"#000000\" leftmargin=\"0\" topmargin=\"0\" vlink=\"#0000FF\" alink=\"#0000FF\" >\r\n<table width=\"775\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n  <tr>\r\n    <td class=\"m_tline\">&nbsp;&nbsp; 系统锟斤拷锟斤拷 -- 锟斤拷细锟斤拷锟斤拷&nbsp;&nbsp;&nbsp; </td>\r\n    <td width=\"30\"><img src=\"/images/control/zh-tw/top_04.gif\" width=\"30\" height=\"24\"></td>\r\n  </tr>\r\n  <tr>\r\n    <td colspan=\"2\" height=\"4\"></td>\r\n  </tr>\r\n</table>\r\n\r\n<table width=\"770\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <tr class=\"m_bc_ed\">\r\n    <td colspan=\"7\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷锟斤拷锟斤拷源 </b></td>\r\n  </tr>\r\n  <TR class=m_title_edit>\r\n    <td width=58>&nbsp;</td>\r\n    <td width=180>锟斤拷址 </td>\r\n    <!--td width=150>锟斤拷锟斤拷</td-->\r\n    <td width=200>锟斤拷锟斤拷</td>\r\n    <td width=200>英锟斤拷</td>\r\n    <td width=100>uid锟斤拷锟秸凤拷式</td>\r\n    <td width=70>&nbsp; </td>\r\n  </TR>\r\n  <form name=FTR action=\"\" method=post>\r\n    <TR class=m_cen>\r\n      <td height=\"23\" align=right class=m_ag_ed>锟矫伙拷锟斤拷 </td>\r\n      <td align=center><input class=za_text  size=25 value=\"";
 				echo $row['datasite'];
 				echo "\" name=SC0></td>\r\n      <!--td align=center><input class=za_text  maxLength=10 size=10 value=\"";
 				echo $row['username'];
@@ -236,9 +236,9 @@ else
 				{
 								echo "checked";
 				}
-				echo ">\r\n        软件接收</td>\r\n      <td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok3></td>\r\n    </TR>
+				echo ">\r\n        锟斤拷锟斤拷锟斤拷锟�</td>\r\n      <td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok3></td>\r\n    </TR>
     <TR class=m_cen>
-      <td class=m_ag_ed align=right>密码/UID</td>
+      <td class=m_ag_ed align=right>锟斤拷锟斤拷/UID</td>
       <td align=center><input class=za_text  size=25 value='".$row['password']."' name=PA2></td>
       <td align=center><input class=za_text  size=28 value='".$row['uid_tw']."' name='uid_tw'></td>
       <td align=center><input class=za_text  size=28 value='".$row['uid_en']."' name='uid_en'></td>
@@ -247,7 +247,7 @@ else
 				{
 								echo "checked";
 				}
-				echo ">\r\n        程序接收</td>\r\n      <td>&nbsp;</td>\r\n    </TR>\r\n    <input type=hidden value=\"CN\" name=type>\r\n  </form>\r\n</table>\r\n<!--<br>\r\n<table width=\"770\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <tr class=\"m_bc_ed\"><td colspan=\"10\" align=\"center\" bgcolor=\"6EC13E\"><b>更新时间</b></td></tr>\r\n<TR class=m_title_edit>\r\n    <td width=80>&nbsp;</td>\r\n    <td width=70> 单式</td>\r\n    <td width=70>上半场</td>\r\n    <td width=70>走地</td>\r\n    <td width=70>波胆</td>\r\n    <td width=70>入球</td>\r\n    <td width=70>半全场</td>\r\n    <td width=70>让球过关</td>\r\n    <td width=70>标准过关</td>\r\n    <td width=80>&nbsp; </td>\r\n  </TR>\r\n  <form name=FTR action=\"\" method=post>\r\n    <TR class=m_cen>\r\n      <td class=m_ag_ed align=right> 足(网/排/篮)球 </td>\r\n      <td align=right><input class=za_text  maxLength=11 size=5 value=\"";
+				echo ">\r\n        锟斤拷锟斤拷锟斤拷锟�</td>\r\n      <td>&nbsp;</td>\r\n    </TR>\r\n    <input type=hidden value=\"CN\" name=type>\r\n  </form>\r\n</table>\r\n<!--<br>\r\n<table width=\"770\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <tr class=\"m_bc_ed\"><td colspan=\"10\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷锟斤拷时锟斤拷</b></td></tr>\r\n<TR class=m_title_edit>\r\n    <td width=80>&nbsp;</td>\r\n    <td width=70> 锟斤拷式</td>\r\n    <td width=70>锟较半场</td>\r\n    <td width=70>锟竭碉拷</td>\r\n    <td width=70>锟斤拷锟斤拷</td>\r\n    <td width=70>锟斤拷锟斤拷</td>\r\n    <td width=70>锟斤拷全锟斤拷</td>\r\n    <td width=70>锟斤拷锟斤拷锟斤拷锟�</td>\r\n    <td width=70>锟斤拷准锟斤拷锟斤拷</td>\r\n    <td width=80>&nbsp; </td>\r\n  </TR>\r\n  <form name=FTR action=\"\" method=post>\r\n    <TR class=m_cen>\r\n      <td class=m_ag_ed align=right> 锟斤拷(锟斤拷/锟斤拷/锟斤拷)锟斤拷 </td>\r\n      <td align=right><input class=za_text  maxLength=11 size=5 value=\"";
 				echo $row['udp_ft_r'];
 				echo "\" name=SC1></td>\r\n      <td align=right><input class=za_text  maxLength=11 size=5 value=\"";
 				echo $row['udp_ft_hr'];
@@ -263,7 +263,7 @@ else
 				echo $row['udp_ft_pr'];
 				echo "\" name=SC7></td>\r\n      <td><input class=za_text  maxLength=11 size=5 value=\"";
 				echo $row['udp_ft_p'];
-				echo "\" name=SC8></td>\r\n      <td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n\t  <input type=hidden value=\"FT\" name=type>\r\n     </TR>\r\n  </form>\r\n</table>-->\r\n<br>\r\n<table width=\"770\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <tr class=\"m_bc_ed\"><td colspan=\"11\" align=\"center\" bgcolor=\"6EC13E\"><b>单注最低限額</b></td></tr>\r\n<TR class=m_title_edit>\r\n    <td width=50>&nbsp;</td>\r\n    <td width=70>独赢</td>\r\n    <td width=70>让球</td>\r\n    <td width=70>大小盘</td>\r\n    <td width=70>波胆</td>\r\n    <td width=70>入球</td>\r\n    <td width=70>半全场</td>\r\n    <td width=70>过关</td>\r\n    <td width=70>冠军</td>\r\n    <td width=70>最高派彩</td>\r\n    <td width=80>&nbsp; </td>\r\n  </TR>\r\n  <form name=FTR action=\"\" method=post>\r\n    <TR class=m_cen>\r\n      <td class=m_ag_ed align=right>金额</td>\r\n      <td align=right><input class=za_text  maxLength=11 size=5 value=\"";
+				echo "\" name=SC8></td>\r\n      <td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n\t  <input type=hidden value=\"FT\" name=type>\r\n     </TR>\r\n  </form>\r\n</table>-->\r\n<br>\r\n<table width=\"770\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <tr class=\"m_bc_ed\"><td colspan=\"11\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷注锟斤拷锟斤拷锟斤拷~</b></td></tr>\r\n<TR class=m_title_edit>\r\n    <td width=50>&nbsp;</td>\r\n    <td width=70>锟斤拷赢</td>\r\n    <td width=70>锟斤拷锟斤拷</td>\r\n    <td width=70>锟斤拷小锟斤拷</td>\r\n    <td width=70>锟斤拷锟斤拷</td>\r\n    <td width=70>锟斤拷锟斤拷</td>\r\n    <td width=70>锟斤拷全锟斤拷</td>\r\n    <td width=70>锟斤拷锟斤拷</td>\r\n    <td width=70>锟节撅拷</td>\r\n    <td width=70>锟斤拷锟斤拷刹锟�</td>\r\n    <td width=80>&nbsp; </td>\r\n  </TR>\r\n  <form name=FTR action=\"\" method=post>\r\n    <TR class=m_cen>\r\n      <td class=m_ag_ed align=right>锟斤拷锟�</td>\r\n      <td align=right><input class=za_text  maxLength=11 size=5 value=\"";
 				echo $row['m'];
 				echo "\" name=SC1></td>\r\n      <td align=right><input class=za_text  maxLength=11 size=5 value=\"";
 				echo $row['r'];
@@ -281,26 +281,26 @@ else
 				echo $row['fs'];
 				echo "\" name=SC8></td>\r\n      <td><input class=za_text  maxLength=11 size=5 value=\"";
 				echo $row['max'];
-				echo "\" name=SC9></td>\r\n      <td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n\t  <input type=hidden value=\"BT\" name=type>\r\n     </TR>\r\n  </form>\r\n</table>";
+				echo "\" name=SC9></td>\r\n      <td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n\t  <input type=hidden value=\"BT\" name=type>\r\n     </TR>\r\n  </form>\r\n</table>";
 
 				echo "
 				<br>
 				<table width=771 border=0 cellpadding=0 cellspacing=1 class=m_tab_ed>
 				  <form name=FTR action='' method=post>
-				  <tr class=m_bc_ed><td colspan=5 align=center bgcolor=6EC13E><b>会员注册</b></td></tr>
-				  <TR class=m_cen>  <td width=80 align=right class=m_ag_ed>默认代理商</td>  <td width=600 align=left><input type=text name='default_agent' value='".$setdata['default_agent']."'</td>  <td><input class=za_button  type=submit value='确定' name=ft_ch_ok></td></TR>
+				  <tr class=m_bc_ed><td colspan=5 align=center bgcolor=6EC13E><b>锟斤拷员注锟斤拷</b></td></tr>
+				  <TR class=m_cen>  <td width=80 align=right class=m_ag_ed>默锟较达拷锟斤拷锟斤拷</td>  <td width=600 align=left><input type=text name='default_agent' value='".$setdata['default_agent']."'</td>  <td><input class=za_button  type=submit value='确锟斤拷' name=ft_ch_ok></td></TR>
 					<input type=hidden value='default_agent' name='type'>
 				  </form>";
 				  $setv1 = $setdata['auto_check']==1 ? "checked" : "";
 				  $setv2 = $setv1=="" ? "checked" : "";
 				  echo "
 				  <form name=FTR action='' method=post>
-				  <TR class=m_cen>  <td width=80 align=right class=m_ag_ed>审核方式</td>  <td width=600 align=left><input type=radio name='auto_check' value='1' $setv1>自动审核 <input type=radio name='auto_check' value='0' $setv2>人工审核</td> <td><input class=za_button  type=submit value='确定' name=ft_ch_ok></td></TR>
+				  <TR class=m_cen>  <td width=80 align=right class=m_ag_ed>锟斤拷朔锟绞�</td>  <td width=600 align=left><input type=radio name='auto_check' value='1' $setv1>锟皆讹拷锟斤拷锟� <input type=radio name='auto_check' value='0' $setv2>锟剿癸拷锟斤拷锟�</td> <td><input class=za_button  type=submit value='确锟斤拷' name=ft_ch_ok></td></TR>
 					<input type=hidden value='auto_check' name='type'>
 				  </form>
 				</table>";
 
-				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>代理商可否设置单注最低限額</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷锟斤拷锟教可凤拷锟斤拷锟矫碉拷注锟斤拷锟斤拷锟斤拷~</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				if ( $row['setmin'] == 0 )
 				{
 								$setv1 = "checked";
@@ -313,42 +313,42 @@ else
 				}
 				echo "          <input type=\"radio\" name=\"setmin\" value=0 ";
 				echo $setv1;
-				echo ">\r\n          不能设置\r\n          <input type=\"radio\" name=\"setmin\" value=1 ";
+				echo ">\r\n          锟斤拷锟斤拷锟斤拷锟斤拷\r\n          <input type=\"radio\" name=\"setmin\" value=1 ";
 				echo $setv2;
-				echo ">\r\n          可以设置</td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"setmin\" name=type>\r\n  </form>\r\n</table>";
+				echo ">\r\n          锟斤拷锟斤拷锟斤拷锟斤拷</td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"setmin\" name=type>\r\n  </form>\r\n</table>";
 
-				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>登0单账号多人同时在线</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷0锟斤拷锟剿号讹拷锟斤拷同时锟斤拷锟斤拷</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				$setv1 = $setdata['d0oneonline']==1 ? '' : "checked";
 				$setv2 = $setdata['d0oneonline']==1 ? "checked" : '';
 				echo "          <input type=\"radio\" name=\"d0oneonline\" value='0' ";
 				echo $setv1;
-				echo ">\r\n          不能同时在线\r\n          <input type=\"radio\" name=\"d0oneonline\" value='1' ";
+				echo ">\r\n          锟斤拷锟斤拷同时锟斤拷锟斤拷\r\n          <input type=\"radio\" name=\"d0oneonline\" value='1' ";
 				echo $setv2;
-				echo ">\r\n          可以同时在线</td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"d0oneonline\" name=type>\r\n  </form>\r\n</table>";
+				echo ">\r\n          锟斤拷锟斤拷同时锟斤拷锟斤拷</td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"d0oneonline\" name=type>\r\n  </form>\r\n</table>";
 
-				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>登0可否删除会员</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷0锟缴凤拷删锟斤拷锟斤拷员</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				$setv1 = $setdata['opendel']==1 ? '' : "checked";
 				$setv2 = $setdata['opendel']==1 ? "checked" : '';
 				echo "          <input type=\"radio\" name=\"opendel\" value='0' ";
 				echo $setv1;
-				echo ">\r\n          不能删除\r\n          <input type=\"radio\" name=\"opendel\" value='1' ";
+				echo ">\r\n          锟斤拷锟斤拷删锟斤拷\r\n          <input type=\"radio\" name=\"opendel\" value='1' ";
 				echo $setv2;
-				echo ">\r\n          可以删除</td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"opendel\" name=type>\r\n  </form>\r\n</table>";
+				echo ">\r\n          锟斤拷锟斤拷删锟斤拷</td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"opendel\" name=type>\r\n  </form>\r\n</table>";
 
-				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>登0可否修改代理占成数</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷0锟缴凤拷锟睫改达拷锟斤拷占锟斤拷锟斤拷</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				$setv1 = $setdata['resetwinloss']==1 ? '' : "checked";
 				$setv2 = $setdata['resetwinloss']==1 ? "checked" : '';
-				echo " <input type='radio' name='resetwinloss' value='0' $setv1>不能修改
-				&nbsp; <input type='radio' name='resetwinloss' value='1' $setv2>可以修改</td>
-				<td><input class='za_button'  type='submit' value='确定' name='ft_ch_ok'></td>
+				echo " <input type='radio' name='resetwinloss' value='0' $setv1>锟斤拷锟斤拷锟睫革拷
+				&nbsp; <input type='radio' name='resetwinloss' value='1' $setv2>锟斤拷锟斤拷锟睫革拷</td>
+				<td><input class='za_button'  type='submit' value='确锟斤拷' name='ft_ch_ok'></td>
 			    </TR><input type='hidden' value='resetwinloss' name='type'>  </form>\r\n</table>";
 
-				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>走地危险球自动确认</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 时间</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟竭碉拷危锟斤拷锟斤拷锟皆讹拷确锟斤拷</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 时锟斤拷</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				$danger_time = intval($setdata['danger_time']);
-				echo "<input name='danger_time' class=za_text size=3 value='".$danger_time."'> 秒，0为自动采用默认值";
-				echo "</td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"danger_time\" name=type>\r\n  </form>\r\n</table>";
+				echo "<input name='danger_time' class=za_text size=3 value='".$danger_time."'> 锟诫，0为锟皆讹拷锟斤拷锟斤拷默锟斤拷值";
+				echo "</td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"danger_time\" name=type>\r\n  </form>\r\n</table>";
 
-				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>走地数据源</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo "\r\n<br>\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟竭碉拷锟斤拷锟斤拷源</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				if ( $row['b2'] == 0 )
 				{
 								$setv1 = "checked";
@@ -361,85 +361,85 @@ else
 				}
 				echo "          <input type=\"radio\" name=\"b1\" value=0 ";
 				echo $setv1;
-				echo ">\r\n          接正网\r\n          <input type=\"radio\" name=\"b1\" value=1 ";
+				echo ">\r\n          锟斤拷锟斤拷锟斤拷\r\n          <input type=\"radio\" name=\"b1\" value=1 ";
 				echo $setv2;
-				echo ">\r\n          接公网</td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"B2\" name=type>\r\n  </form>\r\n</table>";
+				echo ">\r\n          锟接癸拷锟斤拷</td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"B2\" name=type>\r\n  </form>\r\n</table>";
 
-				echo "\r\n<br>\r\n<table width=\"770\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"4\" align=\"center\" bgcolor=\"6EC13E\"><b>协议栏公告</b></td></tr>\r\n<TR class=m_title_edit>\r\n      <td>前台 </td>\r\n      <td>弹出</td>\r\n      <td>文本内容</td>\r\n      <td>&nbsp;</td>\r\n    </TR><form name=FTR action=\"\" method=post>\r\n    <TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 皇冠</td>\r\n      <td width=\"130\" align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
+				echo "\r\n<br>\r\n<table width=\"770\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"4\" align=\"center\" bgcolor=\"6EC13E\"><b>协锟斤拷锟斤拷锟斤拷锟斤拷</b></td></tr>\r\n<TR class=m_title_edit>\r\n      <td>前台 </td>\r\n      <td>锟斤拷锟斤拷</td>\r\n      <td>锟侥憋拷锟斤拷锟斤拷</td>\r\n      <td>&nbsp;</td>\r\n    </TR><form name=FTR action=\"\" method=post>\r\n    <TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟绞癸拷</td>\r\n      <td width=\"130\" align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
 				if ( $row['s2alert'] == 1 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        是\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
+				echo ">\r\n        锟斤拷\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
 				if ( $row['s2alert'] == 0 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        否</td>\r\n      <td width=\"544\"> <input class=za_text  maxLength=150 size=100 value=\"";
+				echo ">\r\n        锟斤拷</td>\r\n      <td width=\"544\"> <input class=za_text  maxLength=150 size=100 value=\"";
 				echo big52gb( $row['alert2_tw'] );
-				echo "\" name=systime> </div>\r\n      </td>\r\n      <td width=\"50\"><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok33></td>\r\n      <input type=hidden value=\"SI2\" name=type>\r\n    </TR></form>\r\n    <form name=FTR action=\"\" method=post><TR class=m_cen>\r\n      <td align=right class=m_ag_ed>代理</td>\r\n      <td align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
+				echo "\" name=systime> </div>\r\n      </td>\r\n      <td width=\"50\"><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok33></td>\r\n      <input type=hidden value=\"SI2\" name=type>\r\n    </TR></form>\r\n    <form name=FTR action=\"\" method=post><TR class=m_cen>\r\n      <td align=right class=m_ag_ed>锟斤拷锟斤拷</td>\r\n      <td align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
 				if ( $row['salert'] == 1 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        是\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
+				echo ">\r\n        锟斤拷\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
 				if ( $row['salert'] == 0 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        否</td>\r\n      <td><input class=za_text  maxlength=150 size=100 value=\"";
+				echo ">\r\n        锟斤拷</td>\r\n      <td><input class=za_text  maxlength=150 size=100 value=\"";
 				echo big52gb( $row['alert_tw'] );
-				echo "\" name=systime></td>\r\n      <td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok332></td>\r\n    <input type=hidden value=\"SI\" name=type></TR></form>\r\n\r\n\r\n    <!--form name=FTR action=\"\" method=post><TR class=m_cen>\r\n      <td align=right class=m_ag_ed>皇马</td>\r\n      <td align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
+				echo "\" name=systime></td>\r\n      <td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok332></td>\r\n    <input type=hidden value=\"SI\" name=type></TR></form>\r\n\r\n\r\n    <!--form name=FTR action=\"\" method=post><TR class=m_cen>\r\n      <td align=right class=m_ag_ed>锟斤拷锟斤拷</td>\r\n      <td align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
 				if ( $row['s3alert'] == 1 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        是\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
+				echo ">\r\n        锟斤拷\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
 				if ( $row['s3alert'] == 0 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        否</td>\r\n      <td><input class=za_text  maxlength=150 size=100 value=\"";
+				echo ">\r\n        锟斤拷</td>\r\n      <td><input class=za_text  maxlength=150 size=100 value=\"";
 				echo big52gb( $row['alert3_tw'] );
-				echo "\" name=systime></td>\r\n      <td><input class=za_button type=submit value=\"确定\" name=ft_ch_ok334></td>\r\n    <input type=hidden value=\"BS\" name=type></TR></form>\r\n  </form>\r\n\r\n    <form name=FTR action=\"\" method=post><TR class=m_cen>\r\n      <td align=right class=m_ag_ed>皇室</td>\r\n      <td align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
+				echo "\" name=systime></td>\r\n      <td><input class=za_button type=submit value=\"确锟斤拷\" name=ft_ch_ok334></td>\r\n    <input type=hidden value=\"BS\" name=type></TR></form>\r\n  </form>\r\n\r\n    <form name=FTR action=\"\" method=post><TR class=m_cen>\r\n      <td align=right class=m_ag_ed>锟斤拷锟斤拷</td>\r\n      <td align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
 				if ( $row['s4alert'] == 1 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        是\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
+				echo ">\r\n        锟斤拷\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
 				if ( $row['s4alert'] == 0 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        否</td>\r\n      <td><input class=za_text  maxlength=150 size=100 value=\"";
+				echo ">\r\n        锟斤拷</td>\r\n      <td><input class=za_text  maxlength=150 size=100 value=\"";
 				echo big52gb( $row['alert4_tw'] );
-				echo "\" name=systime></td>\r\n      <td><input class=za_button type=submit value=\"确定\" name=ft_ch_ok334></td>\r\n    <input type=hidden value=\"NS\" name=type></TR></form>\r\n  </form>\r\n    <form name=FTR action=\"\" method=post><TR class=m_cen>\r\n      <td align=right class=m_ag_ed>银河</td>\r\n      <td align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
+				echo "\" name=systime></td>\r\n      <td><input class=za_button type=submit value=\"确锟斤拷\" name=ft_ch_ok334></td>\r\n    <input type=hidden value=\"NS\" name=type></TR></form>\r\n  </form>\r\n    <form name=FTR action=\"\" method=post><TR class=m_cen>\r\n      <td align=right class=m_ag_ed>锟斤拷锟斤拷</td>\r\n      <td align=\"left\"> <input type=\"radio\" name=\"SC3\" value=1 ";
 				if ( $row['s5alert'] == 1 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        是\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
+				echo ">\r\n        锟斤拷\r\n        <input type=\"radio\" name=\"SC3\" value=0 ";
 				if ( $row['s5alert'] == 0 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n        否</td>\r\n      <td><input class=za_text  maxlength=150 size=100 value=\"";
+				echo ">\r\n        锟斤拷</td>\r\n      <td><input class=za_text  maxlength=150 size=100 value=\"";
 				echo big52gb( $row['alert5_tw'] );
-				echo "\" name=systime></td>\r\n      <td><input class=za_button type=submit value=\"确定\" name=ft_ch_ok334></td>\r\n    <input type=hidden value=\"BN\" name=type></TR></form>\r\n  </form>-->\r\n</table>\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>维护设置</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" height=\"34\" align=right class=m_ag_ed> 维护</td>\r\n      <td width=\"100\" align=\"left\">\r\n          <input type=\"radio\" name=\"SC3\" value=1 ";
+				echo "\" name=systime></td>\r\n      <td><input class=za_button type=submit value=\"确锟斤拷\" name=ft_ch_ok334></td>\r\n    <input type=hidden value=\"BN\" name=type></TR></form>\r\n  </form>-->\r\n</table>\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>维锟斤拷锟斤拷锟斤拷</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" height=\"34\" align=right class=m_ag_ed> 维锟斤拷</td>\r\n      <td width=\"100\" align=\"left\">\r\n          <input type=\"radio\" name=\"SC3\" value=1 ";
 				if ( $row['website'] == 1 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n          是\r\n          <input type=\"radio\" name=\"SC3\" value=0 ";
+				echo ">\r\n          锟斤拷\r\n          <input type=\"radio\" name=\"SC3\" value=0 ";
 				if ( $row['website'] == 0 )
 				{
 								echo "checked";
 				}
-				echo ">\r\n          否</td><td width=\"304\">维护时间段:美东时间<input class=za_text  maxLength=30 size=30 value=\"";
+				echo ">\r\n          锟斤拷</td><td width=\"304\">维锟斤拷时锟斤拷锟�:锟斤拷锟斤拷时锟斤拷<input class=za_text  maxLength=30 size=30 value=\"";
 				echo $row[systime];
-				echo "\" name=systime>\r\n      </td>\r\n      <td width=\"291\">&nbsp;香港时间\r\n        <input class=za_text  maxlength=30 size=30 value=\"";
+				echo "\" name=systime>\r\n      </td>\r\n      <td width=\"291\">&nbsp;锟斤拷锟绞憋拷锟絓r\n        <input class=za_text  maxlength=30 size=30 value=\"";
 				echo $row[systime1];
-				echo "\" name=systime1></td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"ST\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>即时注单刷新</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo "\" name=systime1></td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"ST\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷时注锟斤拷刷锟斤拷</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				if ( $row['wager'] == 1 )
 				{
 								$setv1 = "checked";
@@ -452,11 +452,11 @@ else
 				}
 				echo "          <input type=\"radio\" name=\"wager\" value=1 ";
 				echo $setv1;
-				echo ">\r\n          自动刷新\r\n          <input type=\"radio\" name=\"wager\" value=0 ";
+				echo ">\r\n          锟皆讹拷刷锟斤拷\r\n          <input type=\"radio\" name=\"wager\" value=0 ";
 				echo $setv2;
-				echo ">\r\n          手动刷新</td>\r\n<td width=\"304\">刷新秒数<input class=za_text  maxLength=10 size=10 value=\"";
+				echo ">\r\n          锟街讹拷刷锟斤拷</td>\r\n<td width=\"304\">刷锟斤拷锟斤拷锟斤拷<input class=za_text  maxLength=10 size=10 value=\"";
 				echo $row['wager_sec'];
-				echo "\" name=wager_sec>\r\n\t<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n\r\n    </TR><input type=hidden value=\"RW\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>账号ipsec</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo "\" name=wager_sec>\r\n\t<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n\r\n    </TR><input type=hidden value=\"RW\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟剿猴拷ipsec</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				if ( $row['runball'] == 1 )
 				{
 								$setv1 = "checked";
@@ -469,9 +469,9 @@ else
 				}
 				echo "          <input type=\"radio\" name=\"runball\" value=1 ";
 				echo $setv1;
-				echo ">\r\n          单IP单帐号\r\n          <input type=\"radio\" name=\"runball\" value=0 ";
+				echo ">\r\n          锟斤拷IP锟斤拷锟绞猴拷\r\n          <input type=\"radio\" name=\"runball\" value=0 ";
 				echo $setv2;
-				echo ">\r\n          单IP多帐号</td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"RB\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<!--table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>防改单</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo ">\r\n          锟斤拷IP锟斤拷锟绞猴拷</td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"RB\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<!--table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷锟侥碉拷</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				if ( $row['wageron'] == 1 )
 				{
 								$setv1 = "checked";
@@ -484,9 +484,9 @@ else
 				}
 				echo "          <input type=\"radio\" name=\"wageron\" value=1 ";
 				echo $setv1;
-				echo ">\r\n          开启\r\n          <input type=\"radio\" name=\"wageron\" value=0 ";
+				echo ">\r\n          锟斤拷锟斤拷\r\n          <input type=\"radio\" name=\"wageron\" value=0 ";
 				echo $setv2;
-				echo ">\r\n          关闭</td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"WP\" name=type>\r\n  </form>\r\n</table-->\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>系统最佳化</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\"> ";
+				echo ">\r\n          锟截憋拷</td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"WP\" name=type>\r\n  </form>\r\n</table-->\r\n\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>系统锟斤拷鸦锟�</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\"> ";
 				if ( $row['anop'] == 1 )
 				{
 								$setv1 = "checked";
@@ -499,9 +499,9 @@ else
 				}
 				echo "\t\t\t\t          <input type=\"radio\" name=\"anop\" value=1 ";
 				echo $setv1;
-				echo ">\r\n          开启\r\n          <input type=\"radio\" name=\"anop\" value=0 ";
+				echo ">\r\n          锟斤拷锟斤拷\r\n          <input type=\"radio\" name=\"anop\" value=0 ";
 				echo $setv2;
-				echo ">\r\n          关闭</td>\r\n<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"OP\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>非法注单</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\">\r\n      \t";
+				echo ">\r\n          锟截憋拷</td>\r\n<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n    </TR><input type=hidden value=\"OP\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟角凤拷注锟斤拷</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\">\r\n      \t";
 				if ( $row['acton'] == 1 )
 				{
 								$setv1 = "checked";
@@ -514,11 +514,11 @@ else
 				}
 				echo "          <input type=\"radio\" name=\"acton\" value=1 ";
 				echo $setv1;
-				echo ">开启\r\n          <input type=\"radio\" name=\"acton\" value=0 ";
+				echo ">锟斤拷锟斤拷\r\n          <input type=\"radio\" name=\"acton\" value=0 ";
 				echo $setv2;
-				echo ">关闭\r\n      </td>\r\n\t\t\t<td width=\"304\">投注时间间隔秒数<input class=za_text  maxLength=10 size=10 value=\"";
+				echo ">锟截憋拷\r\n      </td>\r\n\t\t\t<td width=\"304\">投注时锟斤拷锟斤拷锟斤拷锟斤拷<input class=za_text  maxLength=10 size=10 value=\"";
 				echo $row['bet_time'];
-				echo "\" name=bet_time>\r\n\t\t\t<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n\r\n    </TR><input type=hidden value=\"AO\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>管理平台登入ip限制</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 方式</td>\r\n      <td width=\"600\" align=\"left\">\r\n      \t";
+				echo "\" name=bet_time>\r\n\t\t\t<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n\r\n    </TR><input type=hidden value=\"AO\" name=type>\r\n  </form>\r\n</table>\r\n\r\n<br>\r\n<table width=\"771\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\" class=\"m_tab_ed\">\r\n  <form name=FTR action=\"\" method=post>\r\n    <tr class=\"m_bc_ed\"><td colspan=\"5\" align=\"center\" bgcolor=\"6EC13E\"><b>锟斤拷锟斤拷平台锟斤拷锟斤拷ip锟斤拷锟斤拷</b></td></tr><TR class=m_cen>\r\n      <td width=\"41\" align=right class=m_ag_ed> 锟斤拷式</td>\r\n      <td width=\"600\" align=\"left\">\r\n      \t";
 				if ( $row['allowip'] == 1 )
 				{
 								$setv1 = "checked";
@@ -531,25 +531,25 @@ else
 				}
 				echo "          <input type=\"radio\" name=\"allowip\" value=1 ";
 				echo $setv1;
-				echo ">开启\r\n          <input type=\"radio\" name=\"allowip\" value=0 ";
+				echo ">锟斤拷锟斤拷\r\n          <input type=\"radio\" name=\"allowip\" value=0 ";
 				echo $setv2;
-				echo ">关闭\r\n      </td>\r\n\t\t\t<td width=\"304\">指定IP地址<input class=za_text  maxLength=20 size=20 value=\"";
+				echo ">锟截憋拷\r\n      </td>\r\n\t\t\t<td width=\"304\">指锟斤拷IP锟斤拷址<input class=za_text  maxLength=20 size=20 value=\"";
 				echo $row['logip'];
-				echo "\" name=logip>\r\n\t\t\t<td><input class=za_button  type=submit value=\"确定\" name=ft_ch_ok></td>\r\n\r\n    </TR><input type=hidden value=\"IP\" name=type></form>\r\n</table>\r\n";
+				echo "\" name=logip>\r\n\t\t\t<td><input class=za_button  type=submit value=\"确锟斤拷\" name=ft_ch_ok></td>\r\n\r\n    </TR><input type=hidden value=\"IP\" name=type></form>\r\n</table>\r\n";
 
 		echo "
 		<br>
 
 		<table width='771' border='0' cellpadding='0' cellspacing='1' class='m_tab_ed'>
 		  <form name=FTR action='' method=post>
-			<tr class='m_bc_ed'><td colspan='5' align='center' bgcolor='6EC13E'><b>代理商登陆IP限制</b></td></tr>
+			<tr class='m_bc_ed'><td colspan='5' align='center' bgcolor='6EC13E'><b>锟斤拷锟斤拷锟教碉拷陆IP锟斤拷锟斤拷</b></td></tr>
 			<TR class=m_cen>
 			  <td width='41' align=right class=m_ag_ed> </td>
-			  <td width='300' align=left>  请输入要禁止访问的IP，每行一个</td>
+			  <td width='300' align=left>  锟斤拷锟斤拷锟斤拷要锟斤拷止锟斤拷锟绞碉拷IP锟斤拷每锟斤拷一锟斤拷</td>
 			  <td width='300' align=left> ";
 		echo "<TEXTAREA NAME='agents_ip_drop' ROWS='5' COLS='30'>$setdata[agents_ip_drop]</TEXTAREA>";
 		echo "</td>
-			  <td><input class='za_button'  type=submit value='确定' name='ft_ch_ok'></td>
+			  <td><input class='za_button'  type=submit value='确锟斤拷' name='ft_ch_ok'></td>
 			</TR><input type=hidden value='agents_ip_drop' name=type>
 		  </form>
 		</table>";

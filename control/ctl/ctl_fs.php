@@ -38,7 +38,7 @@ $mrow = mysql_fetch_array($result1);
 $mysql="select status,QQ526738,result_type,danger,cancel,id,mid,linetype,date_format(BetTime,'%m-%d <br> %H:%i:%s') as BetTime,date_format(BetTime,'%m%d%H%i%s')+id as bid,M_Name,TurnRate,BetType,M_result,Middle,BetScore from web_db_io where active=6 and mid=$gid and hidden=0 order by bettime,linetype,mtype";
 $result = mysql_query( $mysql);
 ?>
-<HTML>
+<HTML style="width: 98%;margin: 0 auto;">
 <HEAD>
 <TITLE></TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
@@ -49,9 +49,9 @@ $result = mysql_query( $mysql);
 <body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0">
 <table width="880" border="0" cellspacing="0" cellpadding="0">
   <tr>
-     <td class="m_tline" width="744">注单核查 --主队：
-			<?=$mrow['MB_Team']?>上半场:<font color=red>(<?=$mrow['MB_Inball_HR']?>)</font>全场:<font color=red>(<?=$mrow['MB_Inball']?>)</font>客队：<?=$mrow['TG_Team']?>上半场:<font color=red>(<?=$mrow['TG_Inball_HR']?>)</font>全场:<font color=red>(<?=$mrow['TG_Inball']?>)
-			<font color="#cc0000">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:history.go( -1 );">回上一页</a>&nbsp;&nbsp;</font></font></td>
+     <td class="m_tline" width="744">注锟斤拷锟剿诧拷 --锟斤拷锟接ｏ拷
+			<?=$mrow['MB_Team']?>锟较半场:<font color=red>(<?=$mrow['MB_Inball_HR']?>)</font>全锟斤拷:<font color=red>(<?=$mrow['MB_Inball']?>)</font>锟酵队ｏ拷<?=$mrow['TG_Team']?>锟较半场:<font color=red>(<?=$mrow['TG_Inball_HR']?>)</font>全锟斤拷:<font color=red>(<?=$mrow['TG_Inball']?>)
+			<font color="#cc0000">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:history.go( -1 );">锟斤拷锟斤拷一页</a>&nbsp;&nbsp;</font></font></td>
     <td width="32"><img src="/images/control/top_04.gif" width="30" height="24"></td>
   </tr>
   <tr>
@@ -69,14 +69,14 @@ $result = mysql_query( $mysql);
 </table>
   <table id="glist_table" border="0" cellspacing="1" cellpadding="0"  bgcolor="006255" class="m_tab" width="95%">
     <tr class="m_title_ft">
-          <td width="50">投注时间</td>
-          <td width="100">流水单号</td>
-          <td width="100">用户名称</td>
-          <td width="100">球赛种类</td>
-          <td width="330">內容</td>
+          <td width="50">投注时锟斤拷</td>
+          <td width="100">锟斤拷水锟斤拷锟斤拷</td>
+          <td width="100">锟矫伙拷锟斤拷锟斤拷</td>
+          <td width="100">锟斤拷锟斤拷锟斤拷锟斤拷</td>
+          <td width="330">锟斤拷锟斤拷</td>
           <td width="100">投注</td>
-          <td width="100">会员结果</td>
-          <td width="120">注单状态</td>
+          <td width="100">锟斤拷员锟斤拷锟�</td>
+          <td width="120">注锟斤拷状态</td>
         </tr>
         <?
 					while ($row = mysql_fetch_array($result)){
@@ -89,13 +89,13 @@ $result = mysql_query( $mysql);
           <?
 					switch($row['danger']){
 					case 1:
-						echo '<br><font color=#ffffff style=background-color:#ff0000><b>&nbsp;确认中&nbsp;</b></font></font>';
+						echo '<br><font color=#ffffff style=background-color:#ff0000><b>&nbsp;确锟斤拷锟斤拷&nbsp;</b></font></font>';
 						break;
 					case 2:
-						echo '<br><font color=#ffffff style=background-color:#ff0000><b>未确认</b></font></font>';
+						echo '<br><font color=#ffffff style=background-color:#ff0000><b>未确锟斤拷</b></font></font>';
 						break;
 					case 3:
-						echo '<br><font color=#ffffff style=background-color:#ff0000><b>&nbsp;确认&nbsp;</b></font></font>';
+						echo '<br><font color=#ffffff style=background-color:#ff0000><b>&nbsp;确锟斤拷&nbsp;</b></font></font>';
 						break;
 					default:
 						break;

@@ -87,7 +87,7 @@ if ( $keys == "add" )
 }
 else
 {
-				echo "<html>\r\n<head>\r\n<title>main</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<style type=\"text/css\">\r\n<!--\r\n.m_suag_ed {  background-color: #BACBC1; text-align: right}\r\n-->\r\n</style>\r\n<SCRIPT>\r\n<!--\r\n\r\nfunction SubChk(){\r\n\r\n\tif(document.all.username.value=='')\r\n\t\t{ document.all.username.focus(); alert(\"";
+				echo "<html style=\"width: 98%;margin: 0 auto;\">\r\n<head>\r\n<title>main</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">\r\n<style type=\"text/css\">\r\n<!--\r\n.m_suag_ed {  background-color: #BACBC1; text-align: right}\r\n-->\r\n</style>\r\n<SCRIPT>\r\n<!--\r\n\r\nfunction SubChk(){\r\n\r\n\tif(document.all.username.value=='')\r\n\t\t{ document.all.username.focus(); alert(\"";
 				echo $mem_alert3;
 				echo "\"); return false; }\r\n\tif(document.all.password.value=='')\r\n\t\t{ document.all.password.focus(); alert(\"";
 				echo $mem_alert5;

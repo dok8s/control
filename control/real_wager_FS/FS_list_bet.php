@@ -32,7 +32,7 @@ $sql="select date_format(BetTime,'%m%d%H%i%s')+id as ID,date_format(BetTime,'%H:
 $result = mysql_db_query($dbname,$sql);
 $cou=mysql_num_rows($result);
 if ($cou==0){
-	$msg=wterror('帤刲扆善硌隅眈壽訧蹋');
+	$msg=wterror('帤嚙踝蕭扆嚙踝蕭硌嚙踝蕭嚙踝蕭嚙踝蕭嚙踝蕭嚙�');
 	echo $msg;
 }else{
 	$page_size=30;
@@ -41,7 +41,7 @@ if ($cou==0){
 	$mysql=$sql."  limit $offset,$page_size;";
 	$result = mysql_db_query($dbname, $mysql);
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>main</title>
 <meta http-equiv="Content-Type" content="text/html; charset=big5">
@@ -128,7 +128,7 @@ if ($cou==0){
 }
 ?>
 <?
-$loginfo='夢濂撈奀蛁等隴牉';
+$loginfo='嚙誹橘蕭嚙踝蕭奀蛁嚙踝蕭嚙踝蕭牉';
 $ip_addr = getenv("REMOTE_ADDR");
 $mysql="insert into web_mem_log(username,logtime,context,logip,level) values('$agname',now(),'$loginfo','$ip_addr','0')";
 mysql_db_query($dbname,$mysql);

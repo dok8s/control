@@ -268,7 +268,7 @@ $str=str_replace('over','',$str);
 	return $str;
 }
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title></title>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">

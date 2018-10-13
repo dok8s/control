@@ -125,7 +125,7 @@ elseif($active==3){
 else
 {
 }
-echo "<html>\r\n<head>\r\n<title>main</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">
+echo "<html style=\"width: 98%;margin: 0 auto;\">\r\n<head>\r\n<title>main</title>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<link rel=\"stylesheet\" href=\"/style/control/control_main.css\" type=\"text/css\">
 <style type=\"text/css\">
 <!--
 .m_title_sucor {  background-color: #429CCD; text-align: center}

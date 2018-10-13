@@ -907,7 +907,7 @@ case 6:
 $mysql="select edit,odd_type,status,date_format(BetTime,'%m%d%H%i%s')+id as WID,danger,QQ526738,result_type,cancel,id,date_format(BetTime,'%m-%d <br> %H:%i:%s') as BetTime,M_Name,TurnRate,BetType,BetIP,M_result,Middle,BetScore,pay_type,linetype,hidden,Agents from web_db_io where m_name='".trim($username)."' and m_date='$gdate' order by bettime desc,linetype,mtype";
 $result = mysql_query( $mysql);
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title></title>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">

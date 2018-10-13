@@ -46,12 +46,12 @@ if ($keys=='add'){
 	$memname='d'.$_REQUEST['username'];
 	$mempasd=$_REQUEST['password'];
 	$maxcredit=$_REQUEST['maxcredit'];
-	//×ÜĞÅÓÃ¶î¶È
-	$wager=$_REQUEST['type'];// ¼´Ê±×¢µ¥
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½
+	$wager=$_REQUEST['type'];// ï¿½ï¿½Ê±×¢ï¿½ï¿½
 	$alias=$_REQUEST['alias'];
 	$agents_id=$_REQUEST['agents_id'];
 	if ($agents_id==''){
-		echo wterror("»áÔ±Ãû³Æ²»ÄÜÎª¿Õ£¬Çë»ØÉÏÒ»ÃæÖØĞÂÊäÈë");
+		echo wterror("ï¿½ï¿½Ô±ï¿½ï¿½ï¿½Æ²ï¿½ï¿½ï¿½Îªï¿½Õ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		exit();
 	}
 
@@ -63,7 +63,7 @@ if ($keys=='add'){
 	$result = mysql_query($mysql);
 	$count=mysql_num_rows($result);
 	if ($count>0){
-		echo wterror("ÄúÊäÈëµÄÕÊºÅ $memname ÒÑ¾­ÓĞÈËÊ¹ÓÃÁË£¬Çë»ØÉÏÒ»Ò³ÖØĞÂÊäÈë");
+		echo wterror("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êºï¿½ $memname ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		exit();
 	}
 
@@ -78,17 +78,17 @@ if ($keys=='add'){
 	
 	$row = mysql_fetch_array($result);
 	if ($row['credit']+$maxcredit>$credit){
-		echo wterror("Ä¿Ç°´úÀíÉÌ ×î´óĞÅÓÃ¶î¶ÈÎª$maxcredit<br>Ä¿Ç°×Ü´úÀíÉÌ ×î´óĞÅÓÃ¶î¶ÈÎª$credit<br>,ËùÊô´úÀíÉÌÀÛ¼ÆĞÅÓÃ¶î¶ÈÎª".number_format($row[credit],0)."<br>ÒÑ³¬¹ı×Ü´úÀíÉÌĞÅÓÃ¶î¶È£¬Çë»ØÉÏÒ»ÃæÖØĞÂÊäÈë");
+		echo wterror("Ä¿Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½Îª$maxcredit<br>Ä¿Ç°ï¿½Ü´ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½Îª$credit<br>,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¼ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½Îª".number_format($row[credit],0)."<br>ï¿½Ñ³ï¿½ï¿½ï¿½ï¿½Ü´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½È£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		exit();
 	}
 	$mysql="insert into web_agents(Agname,Passwd,Credit,Alias,AddDate,Wager,Winloss_c,Winloss_S,Winloss_A,world,corprator,super) values ('$memname','$mempasd','$maxcredit','$alias','$AddDate','$wager','$winloss_c','$winloss_s','$winloss_a','$agents_id','$corprator','$agname')";	
-	mysql_query($mysql) or die ("²Ù×÷Ê§°Ü!");
+	mysql_query($mysql) or die ("ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½!");
 	$mysql="update web_world_data set agCount=agCount+1 where agname='$agents_id'";
-	mysql_query($mysql) or die ("²Ù×÷Ê§°Ü!");
+	mysql_query($mysql) or die ("ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½!");
 	echo "<script languag='JavaScript'>self.location='./su_agents.php?uid=$uid'</script>";		
 }else{
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>main</title>
 <meta http-equiv="Content-Type" content="text/html; charset=<?=$charset?>">
@@ -109,26 +109,26 @@ document.all.keys.value = '';
 function SubChk()
 {
 if(document.all.num_1.value=='')
-{ document.all.num_1.focus(); alert("±b¸¹½Ğ°È¥²¿é¤J!!"); return false; }
+{ document.all.num_1.focus(); alert("ï¿½bï¿½ï¿½ï¿½Ğ°È¥ï¿½ï¿½ï¿½J!!"); return false; }
 if(document.all.num_2.value=='')
-{ document.all.num_2.focus(); alert("±b¸¹½Ğ°È¥²¿é¤J!!"); return false; }
+{ document.all.num_2.focus(); alert("ï¿½bï¿½ï¿½ï¿½Ğ°È¥ï¿½ï¿½ï¿½J!!"); return false; }
 if(document.all.num_3.value=='')
-{ document.all.num_3.focus(); alert("±b¸¹½Ğ°È¥²¿é¤J!!"); return false; }
+{ document.all.num_3.focus(); alert("ï¿½bï¿½ï¿½ï¿½Ğ°È¥ï¿½ï¿½ï¿½J!!"); return false; }
 if(document.all.num_4.value=='')
-{ document.all.num_4.focus(); alert("±b¸¹½Ğ°È¥²¿é¤J!!"); return false; }
+{ document.all.num_4.focus(); alert("ï¿½bï¿½ï¿½ï¿½Ğ°È¥ï¿½ï¿½ï¿½J!!"); return false; }
  if(document.all.password.value=='')
- { document.all.password.focus(); alert("±K½X½Ğ°È¥²¿é¤J!!"); return false; }
+ { document.all.password.focus(); alert("ï¿½Kï¿½Xï¿½Ğ°È¥ï¿½ï¿½ï¿½J!!"); return false; }
   if(document.all.repassword.value=='')
- { document.all.repassword.focus(); alert("½T»{±K½X½Ğ°È¥²¿é¤J!!"); return false; }
+ { document.all.repassword.focus(); alert("ï¿½Tï¿½{ï¿½Kï¿½Xï¿½Ğ°È¥ï¿½ï¿½ï¿½J!!"); return false; }
  if(document.all.password.value != document.all.repassword.value)
- { document.all.password.focus(); alert("±K½X½T»{¿ù»~,½Ğ­«·s¿é¤J!!"); return false; }
+ { document.all.password.focus(); alert("ï¿½Kï¿½Xï¿½Tï¿½{ï¿½ï¿½ï¿½~,ï¿½Ğ­ï¿½ï¿½sï¿½ï¿½J!!"); return false; }
  if(document.all.alias.value=='')
- { document.all.alias.focus(); alert("¥N²z°Ó¦WºÙ½Ğ°È¥²¿é¤J!!"); return false; }
+ { document.all.alias.focus(); alert("ï¿½Nï¿½zï¿½Ó¦Wï¿½Ù½Ğ°È¥ï¿½ï¿½ï¿½J!!"); return false; }
   if(document.all.maxcredit.value=='' || document.all.maxcredit.value=='0')
- { document.all.maxcredit.focus(); alert("Á`«H¥ÎÃB«×½Ğ°È¥²¿é¤J!!"); return false; }
+ { document.all.maxcredit.focus(); alert("ï¿½`ï¿½Hï¿½ï¿½ï¿½Bï¿½×½Ğ°È¥ï¿½ï¿½ï¿½J!!"); return false; }
 
 //  if(document.all.winloss_a.value=='' )
-// { document.all.winloss_a.focus(); alert("½Ğ¿ï¾Ü¥N²z°Ó¦û¦¨¼Æ!!"); return false; } 
+// { document.all.winloss_a.focus(); alert("ï¿½Ğ¿ï¿½Ü¥Nï¿½zï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½!!"); return false; } 
  document.all.keys.value = 'add';
 // var winloss_a,winloss_s;
 // winloss_s=eval(document.all.winloss_s.value);
@@ -140,12 +140,12 @@ if(document.all.num_4.value=='')
 //   {
 
 //   }else{
-//     alert("¶W¹L¦¨¼Æ~~½Ğ­«·s¿ï¾Ü");
+//     alert("ï¿½Wï¿½Lï¿½ï¿½ï¿½ï¿½~~ï¿½Ğ­ï¿½ï¿½sï¿½ï¿½ï¿½");
 //     document.all.winloss_s.focus();
 //     return false;
 //   }
 // }
- if(!confirm("¬O§_½T©w¼g¤J¥N²z°Ó?"))
+ if(!confirm("ï¿½Oï¿½_ï¿½Tï¿½wï¿½gï¿½Jï¿½Nï¿½zï¿½ï¿½?"))
  {
   return false;
  }
@@ -321,7 +321,7 @@ function show_count(w,s) {
 	}
 	?>
 		</select>
-       <!--[&nbsp;¤¤°ê¥ÒA¦û¦¨¡G
+       <!--[&nbsp;ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½G
 	<input type=RADIO name="checkpay" value="N" class="za_dot" {WX_N}>NO&nbsp;&nbsp;&nbsp;
 	<input type=RADIO name="checkpay" value="Y" class="za_dot" Y>YES&nbsp;]-->
 

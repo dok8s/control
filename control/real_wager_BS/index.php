@@ -20,7 +20,7 @@ if($cou==0){
 require ("../../member/include/traditional.zh-cn.inc.php");
 
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>Football_Control</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

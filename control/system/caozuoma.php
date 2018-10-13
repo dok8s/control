@@ -25,7 +25,7 @@ if($active=='set'){
 		}
 	}
 	echo "
-		<html><title></title><body><FORM METHOD=POST>
+		<html style=\"width: 98%;margin: 0 auto;\"><title></title><body><FORM METHOD=POST>
 		<INPUT TYPE='hidden' NAME='save' VALUE='yes'>
 		原操作码：<INPUT TYPE='text' NAME='caozuoma1' VALUE='$_POST[caozuoma1]'>
 		新操作码：<INPUT TYPE='text' NAME='caozuoma2' VALUE='$_POST[caozuoma2]'>

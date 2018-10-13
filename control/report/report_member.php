@@ -78,7 +78,7 @@ $aid=$row['agents'];
 $sql="select odd_type,mid,showtype,active,status,corpor_point,date_format(BetTime,'%m%d%H%i%s')+id as ID,Agents,BETIP,id,result_type,danger,QQ526738,LineType,cancel,date_format(BetTime,'%m-%d <br> %H:%i:%s') as BetTime,OpenType,M_Result,TurnRate,M_Name,bettype1 as BetType, Middle,BetScore,a_result,agent_point,world_point from web_db_io where ".$where." and M_Name='$mid' order by orderby,BetTime desc";
 
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>reports_member</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

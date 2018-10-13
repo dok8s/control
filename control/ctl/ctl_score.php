@@ -111,7 +111,7 @@ $inball_lock = $moredata['inball_lock'];
 
 ?>
 
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>reports_member</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

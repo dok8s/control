@@ -36,7 +36,7 @@ $sql="select danger,cancel,date_format(BetTime,'%m%d%H%i%s')+id as ID,date_forma
 $result = mysql_db_query($dbname,$sql);
 $cou=mysql_num_rows($result);
 if ($cou==0){
-	$msg=wterror('帤刲扆善硌隅眈壽訧蹋');
+	$msg=wterror('帤嚙踝蕭扆嚙踝蕭硌嚙踝蕭嚙踝蕭嚙踝蕭嚙踝蕭嚙�');
 	echo $msg;
 }else{
 	$page_size=30;
@@ -45,7 +45,7 @@ if ($cou==0){
 	$mysql=$sql."  limit $offset,$page_size;";
 	$result = mysql_db_query($dbname, $mysql);
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>main</title>
 <meta http-equiv="Content-Type" content="text/html; charset=big5">

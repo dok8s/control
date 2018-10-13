@@ -6,7 +6,7 @@ echo "<script>window.open('".$site."/index.php','_top')</script>";
 exit;
 }
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>-</title>

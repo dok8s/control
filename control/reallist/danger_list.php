@@ -69,7 +69,7 @@ $result = mysql_db_query($dbname, $mysql);
 
 ?>
 <script>if(self == top) parent.location='/'</script>
-<HTML>
+<HTML style="width: 98%;margin: 0 auto;">
 <HEAD>
 <TITLE></TITLE>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">

@@ -19,7 +19,7 @@ if ( $cou == 0 ){
 	echo "<script>window.open('".$site."/index.php','_top')</script>";
 	exit();
 }
-echo "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<title></title>\r\n<script>\r\n<!--\r\nvar limit=\"60\"\r\nif (document.images){\r\n\tvar parselimit=limit\r\n}\r\nfunction beginrefresh(){\r\nif (!document.images)\r\n\treturn\r\nif (parselimit==1)\r\n\t//var obj_agent = document.getElementById('agents_id');\r\n\t//alert(obj_agent.value);\r\n\twindow.location.reload();\r\nelse{\r\n\tparselimit-=1\r\n\tcurmin=Math.floor(parselimit)\r\n\tif (curmin!=0)\r\n\t\tcurtime=curmin+\"秒后自动更新！\"\r\n\telse\r\n\t\tcurtime=cursec+\"秒后自动更新！\"\r\n\t\ttimeinfo.innerText=curtime\r\n\t\tsetTimeout(\"beginrefresh()\",1000)\r\n\t}\r\n}\r\nfunction reload()\r\n{\r\n\tself.location.href=\"showlog_more.php?uid=";
+echo "<html style=\"width: 98%;margin: 0 auto;\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<title></title>\r\n<script>\r\n<!--\r\nvar limit=\"60\"\r\nif (document.images){\r\n\tvar parselimit=limit\r\n}\r\nfunction beginrefresh(){\r\nif (!document.images)\r\n\treturn\r\nif (parselimit==1)\r\n\t//var obj_agent = document.getElementById('agents_id');\r\n\t//alert(obj_agent.value);\r\n\twindow.location.reload();\r\nelse{\r\n\tparselimit-=1\r\n\tcurmin=Math.floor(parselimit)\r\n\tif (curmin!=0)\r\n\t\tcurtime=curmin+\"秒后自动更新！\"\r\n\telse\r\n\t\tcurtime=cursec+\"秒后自动更新！\"\r\n\t\ttimeinfo.innerText=curtime\r\n\t\tsetTimeout(\"beginrefresh()\",1000)\r\n\t}\r\n}\r\nfunction reload()\r\n{\r\n\tself.location.href=\"showlog_more.php?uid=";
 echo $uid;
 echo "&level=";
 echo $level;

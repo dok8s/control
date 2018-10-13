@@ -73,7 +73,7 @@ $sql = "select * from web_sytnet where level=0 order by ".$sort." ".$orderby;
 $result = mysql_query($sql);
 
 ?>
-<html>
+<html style="width: 98%;margin: 0 auto;">
 <head>
 <title>main</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
